@@ -15,19 +15,19 @@ This description should help the reader understand what the program is, anything
 > as you can tell, i got no idea what i'm doing.
 ## Screenshot(s)
 
-This bit should have some images of the program running so that the reader has a sense of what it looks like. For example:
+not a single thought in the brain of this cat T-T:
 
 > ![Image of a dumb cat](./assets/images/morgana.jpeg)
 
 ## Attribution
 
-This bit should attribute any code, assets or other elements used taken from other sources. For example:
+STUFF I SNATCHED FROM THE INTERNET:
 
 > - This project uses [p5.js](https://p5js.org).
 > - the morgana picture is from google, it's an edited picture of a real cat that was painted on to resemble and reference the video game character.
 
 ## License
 
-This bit should include the license you want to apply to your work. For example:
+is this under a license? i found the license written in the template so imma just leave it ig💔
 
 > This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
