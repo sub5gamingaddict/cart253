@@ -1,6 +1,6 @@
-# TITLE OF PROJECT
+# IDK WHAT IM DOING
 
-AUTHOR NAME
+Wassim
 
 [View this project online](URL_FOR_THE_RUNNING_PROJECT)
 
@@ -8,25 +8,23 @@ AUTHOR NAME
 
 This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
 
-> *The Mayor of Clown Town* is a simulator experience that allows the user to control a small town populated entirely by clowns.
+> morgana is a little dumb cat from persona 5.
 
-> The experience is controlled via the mouse, with left click selecting a clown and bringing up a menu of options such as "slip of banana peel" or "get into impossible capacious clown-car."
+> the image has nothing to do with the game, if you can even call it a game.
 
-> The project is meant to give the user a sense of what it would be the mayor of a town of clowns, eventually getting the sense that clowns are not taking their civic duties seriously.
-
+> as you can tell, i got no idea what i'm doing.
 ## Screenshot(s)
 
 This bit should have some images of the program running so that the reader has a sense of what it looks like. For example:
 
-> ![Image of a clown face](./assets/images/morgana.jpeg)
+> ![Image of a dumb cat](./assets/images/morgana.jpeg)
 
 ## Attribution
 
 This bit should attribute any code, assets or other elements used taken from other sources. For example:
 
 > - This project uses [p5.js](https://p5js.org).
-> - The clown image is a capture of the clown from the Apple emoji character set.
-> - The barking sound effect is "single dog bark 1" by crazymonke9 from freesound.org: https://freesound.org/people/crazymonke9/sounds/418107/
+> - the morgana picture is from google, it's an edited picture of a real cat that was painted on to resemble and reference the video game character.
 
 ## License
 

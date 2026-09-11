@@ -13,7 +13,7 @@
  * Create a canvas, hides the cursor
 */
 function setup() {
-    // A 640x480 canvas
+    // A 1920X1080 canvas
     createCanvas(1920, 1080);
 
     // Don't show the cursor
@@ -25,12 +25,12 @@ function setup() {
  * at the position of the user's cursor
 */
 function draw() {
-    // Make the background black (specified as RGB)
-    background(100, 200, 300);
+    // Make the background purple (specified as RGB)
+    background(160, 32, 240);
 
     // Draw a pyramid
     // How many levels for the pyramid
-    const levels = 30;
+    const levels = 40;
     // Loop through every level (backwards)
     for (let level = levels; level > 0; level--) {
         // Draw this layer
@@ -38,7 +38,7 @@ function draw() {
         // Set the grey shade of the level based on its number
         // e.g. level 1 will get a shade of 10 (dark gray), 
         // level 10 will be 255(white)
-        const shade = map(level, 10, levels, 25, 367);
+        const shade = map(level, 10, levels, 20, 200);
         // No line around the levels
         noStroke();
         // Set the fill colour to our shade (RGB)
@@ -46,19 +46,20 @@ function draw() {
         // Draw rectangles from the centre
         rectMode(CENTER);
         // Draw the rectangle in the centre of the canvas
-        // (320, 320) with a size based on the level
+        // (300, 300) with a size based on the level
         // e.g. level 1 will be a 48x48 rectangle and
         // level 10 will be a 480x480 rectangle
-        rect(320, 320, level * 48, level * 48);
+        rect(300, 300, level * 10, level * 48);
         pop();
     }
 
-    // Draw a red circle at the position of the mouse
+    // Draw a green circle at the position of the mouse
     push();
     // No line around the shape
     noStroke();
-    // Make it red (RGB)
-    fill(255, 0, 0);
+    // Make it green
+    //  (RGB)
+    fill(0, 255, 0);
     // Draw a 100x100 circle at the mouse position
     ellipse(mouseX, mouseY, 100, 100);
     pop();
