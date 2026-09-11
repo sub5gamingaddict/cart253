@@ -2,7 +2,7 @@
 
 Wassim
 
-[View this project online](https://khglazer.github.io/cart253/topics/version-control/version-control-workflow/)
+[View this project online](https://sub5gamingaddict.github.io/cart253/topics/version-control/version-control-workflow/)
 
 ## Description
 
