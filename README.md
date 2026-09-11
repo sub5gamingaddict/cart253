@@ -1,3 +1,2 @@
 # cart253
 This the repository for the CART253 course
-this is empty...should i write something here? maybe i should...
