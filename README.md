@@ -1,2 +1,4 @@
 # cart253
-This the repository for the CART253 course
+## A repository for CART253
+
+This website was made with the purpose of showcase my prototyping work in this course.
