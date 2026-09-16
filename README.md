@@ -14,3 +14,10 @@
 [<span style="color:#fd6025">Steam</span>](https://steamcommunity.com/profiles/76561199514415842/)
 
 [<span style="color:#fd6025">Backloggd</span>](https://backloggd.com/u/wannabenerd/)
+
+<style>
+  body {
+    background-color: black;
+    color: white;
+  }
+</style>
