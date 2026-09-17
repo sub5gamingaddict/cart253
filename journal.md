@@ -1,4 +1,4 @@
-# style="color:#9c2bfb">Reflective journal
+# Reflective journal
 ## September 12 2026
 This went better than i was expected tbh. I was gonna take a random meme from google to use as a banner but then i realised that it was a bad idea and it was BORING! So i decided to DRAW MY OWN :D. The art is supposed to be silly so don't expect anything pretty. who am i kidding tho, you have already seen it so you can't EXPECT anything now.
 
