@@ -19,3 +19,13 @@ i decided to just stick with a simple text as a banner instead of a full on illu
 after what it felt like HOURS (it was a like 30 minutes maximum tbh) of rotating between files and writing a buncha code THAT I HAD NO KNOWLEDGE OF. I was forced to go back to the boring black text D: The background REFUSED to change colors and i couldnt keep the purple, orange and yellowish green text since they were pretty hard to read on a white background, they did look good on the normal github repository tho. I'm sad but there isn't anything i can do about it so yeah. i tried to edit the index.html and style.css but that didn't work either, and it's getting late so i'll call it a day.
 
 This wasn't as complicated as i thought it would be, mainly because i avoided any complicated stuff and sticked to the basics, i mean...idk how to code so yeah. Also for the future audience...i've got no idea how i want to make them feel, tbh i don't have a good grasp in what we will do in the future, but i would like to customize my github page to be more personal and less boring, seriously, i HATE mine rn. As for aspirations, well...i'm an artist not a web developper, i don't really have anyone to look up to for reference, tho i do have an HUGE intereset in ARGs and internet horror, mainly because i was obsessed with FNAF when i was a kid and really liked how the whole community was analyzing the website for clues, most of the hidden messages were hidden in the source code which back in the day was A GENIUS MOVE, but yeah, if i can develop an ARG that makes people feel scared and horrified, that would be pretty cool.
+
+Here's some ugly website screenshots:
+
+<p align="center">
+  <img src="images/sc 1.png" alt="Project Banner" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/sc 2.png" alt="Project Banner" width="100%">
+</p>
