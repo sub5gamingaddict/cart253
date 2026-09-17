@@ -1,18 +1,17 @@
-# <span style="color:#9c2bfb">CART 253</span>
-## <span style="color:#a1fb2b">A repository for CART253</span>
+# CART 253
+## A repository for CART253
 <p align="center">
   <img src="images/CART-253-BANNER.jpg" alt="Project Banner" width="100%">
 </p>
-<span style="color:#fd6025">This website was made with the purpose of showcase my prototyping work in this course.</span>
+This website was made with the purpose of showcase my prototyping work in this course.
 
-## <span style="color:#a1fb2b">My journal📝</span>
+## My journal📝
 
-[<span style="color:#fd6025">Click me!</span>](journal.md)
+[Click me!](journal.md)
 
-## <span style="color:#a1fb2b">Where you can find me :D</span>
+## Where you can find me :D
+[Steam](https://steamcommunity.com/profiles/76561199514415842/)
 
-[<span style="color:#fd6025">Steam</span>](https://steamcommunity.com/profiles/76561199514415842/)
+[Backloggd](https://backloggd.com/u/wannabenerd/)
 
-[<span style="color:#fd6025">Backloggd</span>](https://backloggd.com/u/wannabenerd/)
-
-## <span style="color:#a1fb2b">Prototypes✨</span>
+## Prototypes✨
