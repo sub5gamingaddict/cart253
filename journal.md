@@ -11,3 +11,7 @@
 </p>
 
 <span style="color:#fd6025">i'm writing this journal to talk about my thought process but now that i think about it, my brain is EMPTY. Well what i'm writing rn is indeed my thoughts so i guess that works.</span>
+
+## <span style="color:#a1fb2b">September 16 2026</span>
+
+<span style="color:#fd6025">i decided to just stick with a simple text as a banner instead of a full on illustration, mainly because i couldn't figure out how to fit a text and characters in such a long composition. i also checked the web version of my repository, and i realised it was white, which basically made my text unreadable because of the colors i chose, so i changed the color in the index html, i couldn't find a way to do this in markdown so yeah.</span>
