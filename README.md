@@ -1,7 +1,7 @@
 # <span style="color:#9c2bfb">CART 253</span>
 ## <span style="color:#a1fb2b">A repository for CART253</span>
 <p align="center">
-  <img src="images/CART 253.png" alt="Project Banner" width="100%">
+  <img src="images/CART-253-BANNER.jpg" alt="Project Banner" width="100%">
 </p>
 <span style="color:#fd6025">This website was made with the purpose of showcase my prototyping work in this course.</span>
 
@@ -15,9 +15,3 @@
 
 [<span style="color:#fd6025">Backloggd</span>](https://backloggd.com/u/wannabenerd/)
 
-<style>
-  body {
-    background-color: black;
-    color: white;
-  }
-</style>
