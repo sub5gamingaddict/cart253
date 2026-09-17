@@ -15,3 +15,5 @@ i'm writing this journal to talk about my thought process but now that i think a
 ## September 16 2026
 
 i decided to just stick with a simple text as a banner instead of a full on illustration, mainly because i couldn't figure out how to fit a text and characters in such a long composition. i also checked the web version of my repository, and i realised it was white, which basically made my text unreadable because of the colors i chose, so i changed the color in the index html, i couldn't find a way to do this in markdown so yeah.
+
+after what it felt like HOURS (it was a like 30 minutes maximum tbh) of rotating between files and writing a buncha code THAT I HAD NO KNOWLEDGE OF. I was forced to go back to the boring black text D: I'm sad but there isn't anything i can do about it so yeah. i tried to edit the index.html and style.css but that didn't work either, and it's getting late so i'll call it a day.
