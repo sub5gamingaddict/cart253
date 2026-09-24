@@ -16,8 +16,9 @@ function setup() {
 
 
 /**
- * Draws the penguin
- */
+ * Draws sky
+*/
 function draw() {
+    background("#9fd1ff");
 
 }
