@@ -42,4 +42,11 @@ function draw() {
     ellipse(225, 350, 200, 100);
     pop();
     noStroke();
+
+     //draws right eye
+    push();
+    fill("#faf2f1");
+    ellipse(575, 350, 200, 100);
+    pop();
+    noStroke();
 }
