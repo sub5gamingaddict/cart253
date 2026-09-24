@@ -52,3 +52,17 @@ I learnt how to make gradients this time! tho... i didn't use it because it just
 <p align="center">
   <img src="assets/death stare 3.png" alt="Project Banner" width="100%">
 </p>
+
+For the penguin one, It was the first thing that came up in mind, mainly because i love penguins...i mean who doesn't? It wasn't anything complicated and it was definetly the easiest out of the three. I tried to put lines on the ice floor like minecraft but that didn't work so...yeah.
+
+<p align="center">
+  <img src="assets/penguin.png" alt="Project Banner" width="100%">
+</p>
+
+For the moon, the main inspo was mejora's mask, I always liked how intimidating the moon was in that game, so i tried to replicate that but then i realised that it wasn't going to work out, so i switched to more silly tone.
+
+<p align="center">
+  <img src="assets/angry moon.png" alt="Project Banner" width="100%">
+</p>
+
+Finally, i wanted to adress the progressive scale increase that you would probably notice when glancing at all three of these prototypes. No it was not intentional. I actually realised that the penguin canvas was way too small but i didn't want to redo it so i decided to include the concept of progressive scaling, that's it, nothing too deep, just an excuse for my laziness :p.
