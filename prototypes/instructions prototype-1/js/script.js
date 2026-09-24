@@ -36,6 +36,13 @@ function draw() {
     pop();
     noStroke();
 
+    //draws right feet
+    push();
+    fill("#f3a42e");
+    triangle(100, 300, 135, 300, 150, 275);
+    pop();
+    noStroke();
+
      //draws penguin body
     push();
     fill("#252525");
