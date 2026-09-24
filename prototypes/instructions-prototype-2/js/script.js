@@ -64,6 +64,17 @@ function draw() {
     pop();
     noStroke();
 
-    
+     //draws angry mouth
+    push();
+
+translate(215, 250);
+rotate(PI);
+
+fill("#fffdfd");
+arc(0, -20, 90, 80, 0, PI + QUARTER_PI, CHORD);
+
+pop();
+
+noStroke();
     
 }
