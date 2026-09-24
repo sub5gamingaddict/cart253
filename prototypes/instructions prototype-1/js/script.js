@@ -63,4 +63,11 @@ function draw() {
     ellipse(165, 150, 50, 50);
     pop();
     noStroke();
+
+    //draws right eye
+    push();
+    fill("#f8f8f8");
+    ellipse(235, 150, 50, 50);
+    pop();
+    noStroke();
 }
