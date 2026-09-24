@@ -38,6 +38,11 @@ function draw() {
   push();
   noStroke();
   fill(mrFurious.fill.r, mrFurious.fill.g, mrFurious.fill.b);
+
+  //gradually change the colour of Mr. Furious white to red and redder
+  mrFurious.fill.g -= 0.5; 
+  mrFurious.fill.b -= 0.5;
+
   ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
   pop();
 }
