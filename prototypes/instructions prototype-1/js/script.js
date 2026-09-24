@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Penguin Prototype
+ * Wassim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Cool penguin
  */
 
 "use strict";
@@ -17,8 +16,8 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
+ * Draws the penguin
+ */
 function draw() {
 
 }
