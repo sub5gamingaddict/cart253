@@ -31,3 +31,5 @@ This website was made with the purpose of showcase my prototyping work in this c
 [Stare](https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-3/)<p align="center">
   <img src="images/death-stare-final.png" alt="death stare">
 </p>
+
+## [prototyping journal](prototype-journal.md)
