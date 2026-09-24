@@ -14,9 +14,11 @@ This website was made with the purpose of showcase my prototyping work in this c
 
 [Backloggd](https://backloggd.com/u/wannabenerd/)
 
-## Prototypes✨
+## Landscape prototype✨
 
 [landscape challenge](https://sub5gamingaddict.github.io/cart253/instructions-challenge/) ([soure code](https://github.com/sub5gamingaddict/cart253/tree/main/instructions-challenge))
+
+## Prototyping assignment📝
 
 [Penguin](https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-1/)
 
