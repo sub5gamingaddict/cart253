@@ -46,7 +46,7 @@ I learnt how to make gradients this time! tho... i didn't use it because it just
 </p>
 
 <p align="center">
-  <img src="images/death-stare 2.png" alt="death stare 2">
+  <img src="images/death-stare-2.png" alt="death stare 2">
 </p>
 
 <p align="center">
