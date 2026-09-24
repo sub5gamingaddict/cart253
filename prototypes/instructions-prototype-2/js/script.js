@@ -20,13 +20,26 @@ function setup() {
  * Draws sky
 */
 function draw() {
-    background("#9fd1ff");
+    background("#200e22");
 
  //draws land
     push();
-    fill("green");
+    fill("#10291d");
     ellipse(300, 800, 800,);
     pop();
     noStroke();
 
+    //draws circle face
+    push();
+    fill("#e8ff93");
+    ellipse(300, 200, 300, 300);
+    pop();
+    noStroke();
+
+     //draws circle face
+    push();
+    fill("#200e22");
+    ellipse(400, 200, 300, 300);
+    pop();
+    noStroke();
 }
