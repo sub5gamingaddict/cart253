@@ -28,12 +28,24 @@ function setup() {
   createCanvas(400, 400);
 }
 
+//sky color
+let skyColor = {
+  r: 160,
+  g: 180,
+  b: 200
+};
+
 /**
  * Draw (and update) Mr. Furious
  */
 function draw() {
-  background(160, 180, 200);
-  
+  background(skyColor.r, skyColor.g, skyColor.b);
+
+  //gradually changes the sky color from day to night
+  skyColor.r -= 0.5;
+  skyColor.g -= 0.5;
+  skyColor.b -= 0.5;
+
   // Draw Mr. Furious as a coloured circle
   push();
   noStroke();
