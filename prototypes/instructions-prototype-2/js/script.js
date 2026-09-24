@@ -20,33 +20,33 @@ function setup() {
  * Draws sky
 */
 function draw() {
-    background("#200e22");
+    background("#fdd008");
 
 
  //draws land
     push();
-    fill("#10291d");
+    fill("#e62d15");
     ellipse(300, 800, 800,);
     pop();
     noStroke();
 
     //draws moon
     push();
-    fill("#edf1b1");
+    fill("#254cb8");
     ellipse(300, 200, 300, 300);
     pop();
     noStroke();
 
     //draws moon cutout
     push();
-    fill("#200e22");
+    fill("#fdd008");
     ellipse(400, 200, 300, 300);
     pop();
     noStroke();
 
     //draws nose
     push();
-    fill("#edf1b1");
+    fill("#254cb8");
     triangle(240, 175, 240, 250, 400, 200);
     pop();
     noStroke();
@@ -60,7 +60,7 @@ function draw() {
 
     //draws pupil
     push();
-    fill("#0e0d0d");
+    fill("#e62d15");
     ellipse(210, 150, 25, 25);
     pop();
     noStroke();
@@ -76,6 +76,5 @@ arc(0, -20, 90, 80, 0, PI + QUARTER_PI, CHORD);
 
 pop();
 
-noStroke();
-    
+noStroke();    
 }
