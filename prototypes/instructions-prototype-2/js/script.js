@@ -31,7 +31,7 @@ function draw() {
 
     //draws moon
     push();
-    fill("#e8ff93");
+    fill("#edf1b1");
     ellipse(300, 200, 300, 300);
     pop();
     noStroke();
@@ -45,15 +45,25 @@ function draw() {
 
     //draws nose
     push();
-    fill("#e8ff93");
+    fill("#edf1b1");
     triangle(240, 175, 240, 250, 400, 200);
     pop();
     noStroke();
 
-    //draws eye
+     //split eye in half
     push();
-    fill("#fcfcfc");
-    ellipse(210, 150, 75, 75);
+    fill("#fffdfd");
+    arc(215, 150, 80, 80, 0, PI + QUARTER_PI, CHORD); 
     pop();
     noStroke();
+
+    //draws pupil
+    push();
+    fill("#0e0d0d");
+    ellipse(210, 150, 25, 25);
+    pop();
+    noStroke();
+
+    
+    
 }
