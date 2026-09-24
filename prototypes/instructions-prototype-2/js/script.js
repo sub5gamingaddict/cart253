@@ -50,5 +50,10 @@ function draw() {
     pop();
     noStroke();
 
-
+    //draws eye
+    push();
+    fill("#fcfcfc");
+    ellipse(210, 150, 75, 75);
+    pop();
+    noStroke();
 }
