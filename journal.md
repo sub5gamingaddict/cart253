@@ -53,6 +53,12 @@ I learnt how to make gradients this time! tho... i didn't use it because it just
   <img src="images/death-stare 3.png" alt="death stare 3">
 </p>
 
+before i ended up with the final one:
+
+<p align="center">
+  <img src="images/death-stare-final.png" alt="final death stare">
+</p>
+
 For the penguin one, It was the first thing that came up in mind, mainly because i love penguins...i mean who doesn't? It wasn't anything complicated and it was definetly the easiest out of the three. I tried to put lines on the ice floor like minecraft but that didn't work so...yeah.
 
 <p align="center">
