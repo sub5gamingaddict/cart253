@@ -29,4 +29,11 @@ function draw() {
     pop();
     noStroke();
 
+    //draws moon
+    push();
+    fill("#e8ff93");
+    ellipse(300, 200, 300, 300);
+    pop();
+    noStroke();
+
 }
