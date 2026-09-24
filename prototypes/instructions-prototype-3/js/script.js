@@ -47,7 +47,7 @@ function draw() {
      //draws left pupil
     push();
     fill("#030303");
-    ellipse(175, 300, 100, 100);
+    ellipse(225, 350, 5, 100);
     pop();
     noStroke();
 
@@ -61,7 +61,20 @@ function draw() {
      //draws right pupil
     push();
     fill("#030303");
-    ellipse(625, 300, 100, 100);
+    ellipse(575, 350, 5, 100);
     pop();
     noStroke();
+
+       //draws angry mouth
+    push();
+
+translate(215, 250);
+rotate(PI);
+
+fill("#fffdfd");
+arc(-175, -300, 500, 20, 0, PI);
+
+pop();
+
+noStroke();    
 }
