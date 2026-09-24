@@ -21,10 +21,14 @@ This website was made with the purpose of showcase my prototyping work in this c
 ## Prototyping assignment📝
 
 [Penguin]<p align="center">
-  <img src="images/death-stare.png" alt="death stare 1">
+  <img src="images/penguin.png" alt="penguin">
 </p>
 (https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-1/)
 
-[ANGRY MOON](https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-2/)
+[ANGRY MOON]<p align="center">
+  <img src="images/angry-moon.png" alt="angry moon">
+</p>(https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-2/)
 
-[Stare](https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-3/)
+[Stare]<p align="center">
+  <img src="images/death-stare-final.png" alt="death stare">
+</p>(https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-3/)
