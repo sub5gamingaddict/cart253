@@ -1,6 +1,6 @@
 //**
  * Mr. Furious
- * Pippin Barr
+ * Wassim Naim
  *
  * A guy who becomes visibly furious!
  */
