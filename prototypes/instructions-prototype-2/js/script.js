@@ -36,4 +36,12 @@ function draw() {
     pop();
     noStroke();
 
+    //draws moon cutout
+    push();
+    fill("#200e22");
+    ellipse(400, 200, 300, 300);
+    pop();
+    noStroke();
+
+
 }
