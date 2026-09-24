@@ -56,4 +56,11 @@ function draw() {
     triangle(200, 25, 150, 250, 250, 250);
     pop();
     noStroke();
+
+    //draws left eye
+    push();
+    fill("#f8f8f8");
+    ellipse(165, 150, 50, 50);
+    pop();
+    noStroke();
 }
