@@ -29,17 +29,4 @@ function draw() {
     pop();
     noStroke();
 
-    //draws circle face
-    push();
-    fill("#e8ff93");
-    ellipse(300, 200, 300, 300);
-    pop();
-    noStroke();
-
-     //draws circle face
-    push();
-    fill("#200e22");
-    ellipse(400, 200, 300, 300);
-    pop();
-    noStroke();
 }
