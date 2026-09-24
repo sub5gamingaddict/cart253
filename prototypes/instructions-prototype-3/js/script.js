@@ -43,10 +43,25 @@ function draw() {
     pop();
     noStroke();
 
+    
+     //draws left pupil
+    push();
+    fill("#030303");
+    ellipse(175, 300, 100, 100);
+    pop();
+    noStroke();
+
      //draws right eye
     push();
     fill("#faf2f1");
     ellipse(575, 350, 200, 100);
+    pop();
+    noStroke();
+
+     //draws right pupil
+    push();
+    fill("#030303");
+    ellipse(625, 300, 100, 100);
     pop();
     noStroke();
 }
