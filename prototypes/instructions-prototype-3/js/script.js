@@ -22,5 +22,17 @@ function setup() {
 function draw() {
     background("#070707");
 
-    
+    //draws face
+    push();
+    fill("#faf2f1");
+    ellipse(400, 400, 810,);
+    pop();
+    noStroke();
+
+    //draws face shadow
+    push();
+    fill("#030303");
+    ellipse(400, 400, 600, 810);
+    pop();
+    noStroke();
 }
