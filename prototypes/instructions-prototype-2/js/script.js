@@ -22,5 +22,11 @@ function setup() {
 function draw() {
     background("#9fd1ff");
 
+ //draws land
+    push();
+    fill("green");
+    ellipse(300, 800, 800,);
+    pop();
+    noStroke();
 
 }
