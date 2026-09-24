@@ -29,3 +29,15 @@ Here's some ugly website screenshots:
 <p align="center">
   <img src="images/sc 2.png" alt="Project Banner" width="100%">
 </p>
+
+
+## September 23 2026
+
+So i'm starting this at last minute, hopefully it will be simple and my brain wouldn't stop working...who am i kidding this is literally written after i've already finished.
+it's actually 12:53 am rn so it isnt september 23 2026...it's the 24th, but i still haven't passed the deadline so i should be good :D.
+
+##  September 24 2026
+
+after finishing the three prototypes, I can say that i'm suprisingly happy with the results, aspecially considering the fact that i was working on them while being sleep deprived, food deprived AND WITH HUGE HEADACHE (literally). Anyways, I had fun with my time while making these three different prototypes.
+I learnt how to make gradients this time! tho... i didn't use it because it just didn't work with what i was supposed to do, and that makes me a little dissapointed but ay, i'm happy. I also found it funny that some of the shapes that i put in my prototypes came from literal accidents, aspecially the third one with the creepy face, a typo caused the lizard sharp eyes and i wasn't going to include them in the original image.
+
