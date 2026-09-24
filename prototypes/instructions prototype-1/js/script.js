@@ -49,4 +49,11 @@ function draw() {
     ellipse(200, 200, 200, 250);
     pop();
     noStroke();
+
+    //draws hair
+    push();
+    fill("#252525");
+    triangle(200, 25, 150, 250, 250, 250);
+    pop();
+    noStroke();
 }
