@@ -57,6 +57,13 @@ function draw() {
     pop();
     noStroke();
 
+    //draws triangle on top of penguin body
+    push();
+    fill("#eeeeee");
+    triangle(200, 325, 150, 250, 250, 250);
+    pop();
+    noStroke();
+
     //draws left eye
     push();
     fill("#f8f8f8");
