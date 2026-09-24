@@ -77,4 +77,11 @@ function draw() {
     ellipse(235, 150, 50, 50);
     pop();
     noStroke();
+
+    //draws right pupil
+    push();
+    fill("#0e0d0d");
+    ellipse(235, 150, 25, 25);
+    pop();
+    noStroke();
 }
