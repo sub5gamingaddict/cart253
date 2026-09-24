@@ -28,4 +28,11 @@ function draw() {
     square(0, 250, 400);
     pop();
     noStroke();
+
+     //draws penguin body
+    push();
+    fill("#252525");
+    ellipse(200, 200, 200, 250);
+    pop();
+    noStroke();
 }
