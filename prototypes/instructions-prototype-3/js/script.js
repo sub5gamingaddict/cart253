@@ -35,4 +35,11 @@ function draw() {
     ellipse(400, 400, 600, 810);
     pop();
     noStroke();
+
+     //draws left eye
+    push();
+    fill("#faf2f1");
+    ellipse(225, 350, 200, 100);
+    pop();
+    noStroke();
 }
