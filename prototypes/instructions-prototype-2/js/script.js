@@ -12,13 +12,15 @@
  * Creates the canvas
 */
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(600, 600);
 }
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Draws sky
 */
 function draw() {
+    background("#9fd1ff");
+
 
 }
