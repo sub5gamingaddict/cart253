@@ -20,18 +20,8 @@ function setup() {
  * Draws sky
 */
 function draw() {
-  for (let y = 0; y < height; y++) {
-    let t = y / height;
+    background("#200e22");
 
-    let c = lerpColor(
-      color("rgb(38, 37, 105)"),
-      color("#744055"),
-      t
-    );
-
-    stroke(c);
-    line(0, y, width, y);
-  }
 
  //draws land
     push();
