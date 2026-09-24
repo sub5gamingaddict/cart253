@@ -43,5 +43,12 @@ function draw() {
     pop();
     noStroke();
 
+    //draws nose
+    push();
+    fill("#e8ff93");
+    triangle(240, 175, 240, 250, 400, 200);
+    pop();
+    noStroke();
+
 
 }
