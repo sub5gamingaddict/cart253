@@ -84,4 +84,11 @@ function draw() {
     ellipse(235, 150, 25, 25);
     pop();
     noStroke();
+
+    //draws beak
+    push();
+    fill("#f3a42e");
+    triangle(200, 175, 180, 200, 220, 200);
+    pop();
+    noStroke();
 }
