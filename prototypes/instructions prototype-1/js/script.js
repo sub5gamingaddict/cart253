@@ -64,6 +64,13 @@ function draw() {
     pop();
     noStroke();
 
+     //draws left pupil
+    push();
+    fill("#0e0d0d");
+    ellipse(165, 150, 25, 25);
+    pop();
+    noStroke();
+
     //draws right eye
     push();
     fill("#f8f8f8");
