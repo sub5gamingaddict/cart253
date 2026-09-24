@@ -72,3 +72,9 @@ For the moon, the main inspo was mejora's mask, I always liked how intimidating 
 </p>
 
 Finally, i wanted to adress the progressive scale increase that you would probably notice when glancing at all three of these prototypes. No it was not intentional. I actually realised that the penguin canvas was way too small but i didn't want to redo it so i decided to include the concept of progressive scaling, that's it, nothing too deep, just an excuse for my laziness :p.
+
+<div class="images">
+    <img src="images/penguin.png" alt="Photo 1">
+    <img src="images/angry-moon.png" alt="Photo 2">
+    <img src="images/death-stare-final.png" alt="Photo 3">
+</div>
