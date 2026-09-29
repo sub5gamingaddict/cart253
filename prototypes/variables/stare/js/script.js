@@ -52,7 +52,7 @@ function draw() {
      // Jumpscare screen
    else {
 
-      image(jumpscare, 0, 0, width, height);
+      image(jumpscare, 0, 0, 800, 800);
    }
 }
 
