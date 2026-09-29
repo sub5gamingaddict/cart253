@@ -17,6 +17,8 @@ function setup() {
    //jumpscare variable
    let jumpscare = false;
    
+   //jumpscare tracker
+    let jumpscared = false;
 }
 
 
