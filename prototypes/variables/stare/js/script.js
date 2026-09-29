@@ -19,8 +19,17 @@ function setup() {
    
    //jumpscare tracker
     let jumpscared = false;
+
+
 }
 
+/**
+ * loading assets.
+ */
+function preload() {
+   jumpscareImage = loadImage("jumpscare.png");
+
+}
 
 /**
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
