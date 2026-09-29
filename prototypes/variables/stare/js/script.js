@@ -18,10 +18,15 @@
  * loading assets.
  */
 function preload() {
-   jumpscareimage = loadImage("image/jumpscare.jpg");
 
+    jumpscareimage = loadImage("BOOO.jpg");
+    jumpscarewidth = 800;
+    jumpscareheight = 800;
 }
 
+
+
+   
 
 /**
  * Sets up the canvas.
@@ -50,10 +55,8 @@ function draw() {
     
     }
 
-     // Jumpscare screen
-   else {
-
-      image(jumpscareimage, 0, 0, 800, 800);
+  if (jumpscared) {
+      image(jumpscareimage, 0, 0, jumpscarewidth, jumpscareheight);
    }
 }
 
