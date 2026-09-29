@@ -27,7 +27,7 @@ function setup() {
  * loading assets.
  */
 function preload() {
-   jumpscareImage = loadImage("jumpscare.png");
+   jumpscare = loadImage("jumpscare.jpg");
 
 }
 
@@ -48,5 +48,11 @@ function draw() {
     noStroke();
     
     }
+
+     // Jumpscare screen
+   else {
+
+      image(jumpscare, 0, 0, width, height);
+   }
 }
 
