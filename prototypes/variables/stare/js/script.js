@@ -9,8 +9,8 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
+ * Sets up the canvas.
+ */
 function setup() {
    createCanvas(800, 800);
 }
@@ -20,5 +20,5 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-
+   background("#070707");
 }
