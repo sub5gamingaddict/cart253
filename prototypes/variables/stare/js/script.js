@@ -43,7 +43,7 @@ function draw() {
    //draws circle
     push();
     fill("#faf2f1");
-    ellipse(400, 400, 100,);
+    ellipse(400, 400, 100, 100);
     pop();
     noStroke();
     
@@ -54,5 +54,14 @@ function draw() {
 
       image(jumpscare, 0, 0, 800, 800);
    }
+}
+
+   /**
+ * jumpscare event
+*/
+
+function mousePressed() {
+   jumpscare = true;
+   jumpscared = true;
 }
 
