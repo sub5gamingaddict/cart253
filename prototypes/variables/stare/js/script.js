@@ -8,28 +8,29 @@
 
 "use strict";
 
+ //jumpscare variable
+   let jumpscareimage;
+   
+   //jumpscare tracker
+    let jumpscared = false;
+
+    /**
+ * loading assets.
+ */
+function preload() {
+   jumpscareimage = loadImage("image/jumpscare.jpg");
+
+}
+
+
 /**
  * Sets up the canvas.
  */
 function setup() {
    createCanvas(800, 800);
 
-   //jumpscare variable
-   let jumpscare = false;
-   
-   //jumpscare tracker
-    let jumpscared = false;
-
-
 }
 
-/**
- * loading assets.
- */
-function preload() {
-   jumpscare = loadImage("jumpscare.jpg");
-
-}
 
 /**
  * canvas details.
@@ -37,7 +38,7 @@ function preload() {
 function draw() {
 
     // Normal screen
-    if (!jumpscare) {
+    if (!jumpscared) {
         background("#070707");
 
    //draws circle
@@ -52,7 +53,7 @@ function draw() {
      // Jumpscare screen
    else {
 
-      image(jumpscare, 0, 0, 800, 800);
+      image(jumpscareimage, 0, 0, 800, 800);
    }
 }
 
@@ -61,7 +62,6 @@ function draw() {
 */
 
 function mousePressed() {
-   jumpscare = true;
    jumpscared = true;
-}
 
+}
