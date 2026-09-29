@@ -32,10 +32,13 @@ function preload() {
 }
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * canvas details.
 */
 function draw() {
-   background("#070707");
+
+    // Normal screen
+    if (!jumpscare) {
+        background("#070707");
 
    //draws circle
     push();
@@ -43,4 +46,7 @@ function draw() {
     ellipse(400, 400, 100,);
     pop();
     noStroke();
+    
+    }
 }
+
