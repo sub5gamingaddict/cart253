@@ -21,4 +21,11 @@ function setup() {
 */
 function draw() {
    background("#070707");
+
+   //draws circle
+    push();
+    fill("#faf2f1");
+    ellipse(400, 400, 100,);
+    pop();
+    noStroke();
 }
