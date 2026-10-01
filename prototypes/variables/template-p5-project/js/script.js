@@ -24,7 +24,7 @@ let centerPivot = {
 };
 
 let romannumbers = ["XII", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"
-    
+
 ];
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
@@ -36,7 +36,7 @@ function setup() {
     
     drawclock();
     drawcenterpivot();
-    draw1();
+    drawromannumbers();
 }
 
 
@@ -54,8 +54,24 @@ function drawclock() {
 function drawcenterpivot() {
     push();
     fill(centerPivot.color);
+    noStroke();
     ellipse(centerPivot.x, centerPivot.y, centerPivot.size);
     pop();
-    nostroke();
+
 }
 
+function drawromannumbers() {
+    push();
+    fill("#050505");
+    noStroke();
+    textSize(30);
+    textAlign(CENTER, CENTER);
+    for (let i = 0; i < romannumbers.length; i++) {
+        let angle = map(i, 0, romannumbers.length, 0, TWO_PI) - HALF_PI;
+        let x = wheel.x + cos(angle) * (wheel.size / 2 - 30);
+        let y = wheel.y + sin(angle) * (wheel.size / 2 - 30);
+        text(romannumbers[i], x, y);
+    }
+    pop();
+    
+}
