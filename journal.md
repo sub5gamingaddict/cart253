@@ -92,3 +92,9 @@ the next one was a clock. And i had no idea how to do this. I was only familiar 
 the last one is my favorite, NOT BECAUSE IT INVOLVES GAMBLING! well...you cant really call it gambling if there is no money involved...right? anyways, out of all the three, this one was the most complicated because it relied on randomizers and constants, two things that i have no idea about, after looking them up things were a little simple, tho i have a feeling that i might forget how to do this after a week...or 2 days. anyways, i used the same mouse click interraction that i learnt in my first scrapped jumpscare project, so i guess that didnt go to waste... but yeah, after a very confusing session of looking at stuff that looked like hyroglephics...i didn't spell it correctly right? who cares. this turned out to be my favourite!
 
 so i learnt alot of things from these three prototypes, before, i didnt really use variables which limited me alot and made the organization of my code a living nightmare, so im thankful for this experience, THANK YOU FOR READING :D
+
+<div class="images">
+    <img src="images/clock.png" alt="clock">
+    <img src="images/sunrise.png" alt="sunrise">
+    <img src="images/randomizer.png" alt="randomizer">
+</div>
