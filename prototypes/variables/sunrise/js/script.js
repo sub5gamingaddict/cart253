@@ -18,12 +18,20 @@ let sun = {
     color: "#ffdf29"
 };
 
-let mountain = {
-    x: 400,
-    y: 800,
+let mountain1 = {
+    x: 150,
+    y: 900,
     size: 600,
     color: "#141625"
 };
+
+let mountain2 = {
+    x: 650,
+    y: 900,
+    size: 600,
+    color: "#141625"
+};
+
 
 /**
  * set up canvas,
@@ -46,7 +54,8 @@ function draw() {
    background(nighttime);
 
    drawsun();
-   drawmountain();
+   drawmountain1();
+   drawmountain2();
 }
 
 function drawsun() {
@@ -57,10 +66,18 @@ function drawsun() {
     noStroke();
 }
 
-function drawmountain() {
+function drawmountain1() {
     push();
-    fill(mountain.color);
-    triangle(mountain.x - mountain.size/2, mountain.y, mountain.x, mountain.y - mountain.size/2, mountain.x + mountain.size/2, mountain.y);
+    fill(mountain1.color);
+    triangle(mountain1.x - mountain1.size/2, mountain1.y, mountain1.x, mountain1.y - mountain1.size/2, mountain1.x + mountain1.size/2, mountain1.y);
+    pop();
+    noStroke();
+}
+
+function drawmountain2() {
+    push();
+    fill(mountain2.color);
+    triangle(mountain2.x - mountain2.size/2, mountain2.y, mountain2.x, mountain2.y - mountain2.size/2, mountain2.x + mountain2.size/2, mountain2.y);
     pop();
     noStroke();
 }
