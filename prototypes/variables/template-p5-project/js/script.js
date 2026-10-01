@@ -12,6 +12,7 @@
 */
 function setup() {
 createCanvas(800, 250);
+rectMode(CENTER);
 background("purple");
 
 }
@@ -21,5 +22,14 @@ background("purple");
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+
+    fill("yellow");
+    noStroke();
+    circle(400, 125, 220);
+    square(135, 125, 200);
+    triangle(650, 30, 550, 225, 775, 225);
+   
+
+
 
 }
