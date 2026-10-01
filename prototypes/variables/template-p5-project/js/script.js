@@ -55,11 +55,12 @@ function setup() {
     minutestick.angle = -HALF_PI;
     secondstick.angle = -HALF_PI;
     drawclock();
-    drawcenterpivot();
-    drawromannumbers();
     drawhourstick();
     drawminutestick();
     drawsecondstick();
+    drawcenterpivot();
+    drawromannumbers();
+
 }
 
 
