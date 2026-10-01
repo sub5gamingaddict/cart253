@@ -20,6 +20,11 @@ background("purple");
 
 }
 
+function draw() {
+    drawShape(slot1, 100, 125, 200);
+    drawShape(slot2, 400, 125, 200);
+    drawShape(slot3, 700, 125, 200);
+}
 
 /**
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
@@ -39,3 +44,4 @@ function drawShape(name, x, y, size) {
     triangle(650, 30, 550, 225, 775, 225);
    }
 }
+
