@@ -25,19 +25,21 @@ This website was made with the purpose of showcase my prototyping work in this c
 <p align="center">
   <img src="images/penguin.png" alt="penguin">
 </p>
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/penguin)
 
-[ANGRY MOON](https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-2/)
+[ANGRY MOON](https://sub5gamingaddict.github.io/cart253/prototypes/angry-moon/)
 
 <p align="center">
   <img src="images/angry-moon.png" alt="angry moon">
 </p>
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/angry-moon)
 
-[Stare](https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-3/)
+[Stare](https://sub5gamingaddict.github.io/cart253/prototypes/lizard-eyes/)
 
 <p align="center">
   <img src="images/death-stare-final.png" alt="death stare">
 </p>
-[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/clock)
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/lizard-eyes)
 
 ## [prototyping journal](prototype-journal.md)
 
