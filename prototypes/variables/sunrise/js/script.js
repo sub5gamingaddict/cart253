@@ -8,18 +8,17 @@
 
 "use strict";
 
-let daytime;
 let nighttime;
-
-daytime= color(24, 40, 71);
-nighttime= color(148, 214, 255);
-
+let daytime;
 
 /**
  * set up canvas,
 */
 function setup() {
        createCanvas(800, 800);
+
+nighttime= color(24, 40, 71);
+daytime= color(147, 213, 255);
 
 }
 
@@ -28,6 +27,7 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-     
+   nighttime= lerpColor(nighttime, daytime, 0.001);   
 
+   background(nighttime);
 }
