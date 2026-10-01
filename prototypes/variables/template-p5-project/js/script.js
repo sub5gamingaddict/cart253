@@ -12,14 +12,17 @@ let wheel = {
     x: 400,
     y: 400,
     size: 200,
-    color: "#a78f64"
+    color: "#a78f64",
     angle: 0
 };
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
+   createCanvas(800, 800);
     background("#000000");
+
+    drawwheel();
 }
 
 
@@ -30,6 +33,8 @@ function drawwheel() {
     push();
 
     //draw wheel
-    ellipse (mouseX, mouseY, 100, 100);
+    ellipse(wheel.x, wheel.y, wheel.size);
+
+    
 
 }
