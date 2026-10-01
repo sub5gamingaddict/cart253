@@ -8,13 +8,12 @@
 
 "use strict";
 
-let skycolor = {
-     //color
-     r: 191,
-     g: 229,
-     b: 255
+let daytime;
+let nighttime;
 
-};
+daytime= color(24, 40, 71);
+nighttime= color(148, 214, 255);
+
 
 /**
  * set up canvas,
@@ -29,6 +28,6 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-     background(skycolor.r, skycolor.g, skycolor.b);
+     
 
 }
