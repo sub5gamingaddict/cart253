@@ -32,6 +32,12 @@ let hourstick = {
     width: 10,
     color: "#050505",
 }
+
+let minutestick = {
+    length: 270,
+    width: 10,
+    color: "#050505",
+}
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
@@ -40,12 +46,13 @@ function setup() {
     background("#000000");
 
     hourstick.angle = -HALF_PI;
-
+    minutestick.angle = -HALF_PI;
+    
     drawclock();
     drawcenterpivot();
     drawromannumbers();
     drawhourstick();
-    
+    drawminutestick();
 }
 
 
@@ -90,5 +97,13 @@ function drawhourstick() {
     stroke(hourstick.color);
     strokeWeight(hourstick.width);
     line (centerPivot.x, centerPivot.y, centerPivot.x + cos(hourstick.angle) * hourstick.length, centerPivot.y + sin(hourstick.angle) * hourstick.length);
+    pop();
+}
+
+function drawminutestick() {
+    push();
+    stroke(minutestick.color);
+    strokeWeight(minutestick.width);
+    line (centerPivot.x, centerPivot.y, centerPivot.x + cos(minutestick.angle) * minutestick.length, centerPivot.y + sin(minutestick.angle) * minutestick.length);
     pop();
 }
