@@ -8,6 +8,13 @@
 
 "use strict";
 
+let wheel = {
+    x: 400,
+    y: 400,
+    size: 200,
+    color: "#a78f64"
+    angle: 0
+};
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
@@ -19,6 +26,10 @@ function setup() {
 /**
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
-function draw() {
+function drawwheel() {
+    push();
+
+    //draw wheel
+    ellipse (mouseX, mouseY, 100, 100);
 
 }
