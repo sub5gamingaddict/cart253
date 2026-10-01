@@ -7,6 +7,8 @@
 
 "use strict";
 
+const shapes = ["circle", "square", "triangle"];
+
 let slot1 = "circle";
 let slot2 = "square";
 let slot3 = "triangle";
@@ -43,5 +45,15 @@ function drawShape(name, x, y, size) {
    }else if (name === "triangle") {
     triangle(650, 30, 550, 225, 775, 225);
    }
+
+   function pickRandomShape() {
+    return random(shapes);
+}
+
+function randomizeSlots() {
+    slot1 = pickRandomShape();
+    slot2 = pickRandomShape();
+    slot3 = pickRandomShape();
+}
 }
 
