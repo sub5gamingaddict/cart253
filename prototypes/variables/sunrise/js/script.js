@@ -8,8 +8,16 @@
 
 "use strict";
 
+let skycolor = {
+     //color
+     r: 191
+     g: 229
+     b: 255
+
+};
+
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * set up canvas,
 */
 function setup() {
        createCanvas(800, 800);
