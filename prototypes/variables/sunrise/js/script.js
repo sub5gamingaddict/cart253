@@ -90,6 +90,7 @@ function drawmountain1() {
     pop();
     noStroke();
 
+    mountain1.color = lerpColor(mountain1.color, mountain1color.color, 0.001);
 }
 
 function drawmountain2() {
@@ -99,6 +100,6 @@ function drawmountain2() {
     pop();
     noStroke();
 
-
+    mountain2.color = lerpColor(mountain2.color, mountain2color.color, 0.001);
 }
 
