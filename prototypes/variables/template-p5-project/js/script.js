@@ -37,14 +37,15 @@ function drawShape(name, x, y, size) {
     noStroke();
 
    if (name === "circle") {
-    circle(400, 125, 220);
+    circle(x, y, size);
    
    } else if (name === "square") {
-    square(135, 125, 200);
+    square(x, y, size);
    
    }else if (name === "triangle") {
-    triangle(650, 30, 550, 225, 775, 225);
+    triangle(x, y - size / 2, x - size / 2, y + size / 2, x + size / 2, y + size / 2);
    }
+}
 
    function pickRandomShape() {
     return random(shapes);
@@ -55,5 +56,7 @@ function randomizeSlots() {
     slot2 = pickRandomShape();
     slot3 = pickRandomShape();
 }
-}
 
+function mousePressed() {
+    randomizeSlots();
+}
