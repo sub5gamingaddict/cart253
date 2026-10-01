@@ -18,6 +18,18 @@ let sun = {
     color: "#ffdf29"
 };
 
+let sunset = {
+    x: 400,
+    size: 250,
+    color: "#ffdf29"
+};
+
+let sunrise = {
+    x: 400,
+    size: 250,
+    color: "#ffdf29"
+};
+
 let mountain1 = {
     x: 150,
     y: 900,
