@@ -26,6 +26,12 @@ let centerPivot = {
 let romannumbers = ["XII", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"
 
 ];
+
+let hourstick = {
+    length: 200,
+    width: 10,
+    color: "#050505",
+}
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
@@ -33,10 +39,13 @@ function setup() {
    createCanvas(800, 800);
     background("#000000");
 
-    
+    hourstick.angle = -HALF_PI;
+
     drawclock();
     drawcenterpivot();
     drawromannumbers();
+    drawhourstick();
+    
 }
 
 
@@ -74,4 +83,12 @@ function drawromannumbers() {
     }
     pop();
     
+}
+
+function drawhourstick() {
+    push();
+    stroke(hourstick.color);
+    strokeWeight(hourstick.width);
+    line (centerPivot.x, centerPivot.y, centerPivot.x + cos(hourstick.angle) * hourstick.length, centerPivot.y + sin(hourstick.angle) * hourstick.length);
+    pop();
 }
