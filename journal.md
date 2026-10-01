@@ -78,3 +78,17 @@ Finally, i wanted to adress the progressive scale increase that you would probab
     <img src="images/angry-moon.png" alt="Photo 2">
     <img src="images/death-stare-final.png" alt="Photo 3">
 </div>
+
+## September 28 2026
+
+so i started on my first project with a simple idea. A JUMPSCARE!! I wanted to make an interactive canvas that jumpscared you when you clicked on it but...it didn't work, i still dont know why but for some reason the picture did not appear when someone clicked on the canvas. the click interaction worked because i tested it with a flat red color, so there is a problem from the image loading itself. I tried different things to solve the problem but it didn't work so i gave up.
+
+## september 30/ october 1 2026
+
+so late night programming session, YAAAAAY! i dont like working in mornings so this is perfect for me. the first prototype was pretty simple, i was inspired by mr furious (mainly because of the circle changing colors), so i decided to make a sunset. Unlike mr furious, i had to learn how to program the color to shift from one color to another, not one value to another, which i was able to do. after that i programmed the sun's movement and added some mountains, pretty normal stuff.
+
+the next one was a clock. And i had no idea how to do this. I was only familiar with translation movements, so radial ones were pretty much a foreign concept for me. So you probably know what time it is...LEARNING TIME. so at first it was simple, just draw shapes and put their variables on the top. the main problem was the clock hands movement and the numbers alignement. I learnt how to alling the numbers, which wasnt so difficult and also used variables if i remember correctly. the clock hands on the other hand were kind of confusing because i had no idea how to move them in a radial move, so...i had to learn it! and that i did, this relied heavily on variables and angles and all that complicated stuff, also appparently the clock keeps on moving even when you leave the page? maybe im mistaken tho.
+
+the last one is my favorite, NOT BECAUSE IT INVOLVES GAMBLING! well...you cant really call it gambling if there is no money involved...right? anyways, out of all the three, this one was the most complicated because it relied on randomizers and constants, two things that i have no idea about, after looking them up things were a little simple, tho i have a feeling that i might forget how to do this after a week...or 2 days. anyways, i used the same mouse click interraction that i learnt in my first scrapped jumpscare project, so i guess that didnt go to waste... but yeah, after a very confusing session of looking at stuff that looked like hyroglephics...i didn't spell it correctly right? who cares. this turned out to be my favourite!
+
+so i learnt alot of things from these three prototypes, before, i didnt really use variables which limited me alot and made the organization of my code a living nightmare, so im thankful for this experience, THANK YOU FOR READING :D
