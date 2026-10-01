@@ -37,6 +37,7 @@ This website was made with the purpose of showcase my prototyping work in this c
 <p align="center">
   <img src="images/death-stare-final.png" alt="death stare">
 </p>
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/clock)
 
 ## [prototyping journal](prototype-journal.md)
 
@@ -47,15 +48,18 @@ This website was made with the purpose of showcase my prototyping work in this c
 <p align="center">
   <img src="images/clock.png" alt="Clock">
 </p>
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/clock)
 
 [Sunrise](https://sub5gamingaddict.github.io/cart253/prototypes/variables/sunrise/)
 
 <p align="center">
   <img src="images/sunrise.png" alt="Sunrise">
 </p>
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/sunrise)
 
 [Shape Randomizer](https://sub5gamingaddict.github.io/cart253/prototypes/variables/randomizer/)
 
 <p align="center">
   <img src="images/randomizer.png" alt="Shape Randomizer">
 </p>
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/randomizer)
