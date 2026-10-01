@@ -49,17 +49,31 @@ let secondstick = {
 */
 function setup() {
    createCanvas(800, 800);
+   
+
+}
+function draw() {
     background("#000000");
 
-    hourstick.angle = -HALF_PI;
-    minutestick.angle = -HALF_PI;
-    secondstick.angle = -HALF_PI;
+    updatehands();
+  
     drawclock();
+    drawromannumbers();
     drawhourstick();
     drawminutestick();
     drawsecondstick();
     drawcenterpivot();
-    drawromannumbers();
+
+}
+
+function updatehands() {
+    let hr = hour() %12;
+    let mn = minute();
+    let sc = second();
+
+    secondstick.angle = map(sc, 0, 60, 0, TWO_PI) - HALF_PI;
+    minutestick.angle = map(mn + norm(sc, 0, 60), 0, 60, 0, TWO_PI) - HALF_PI;
+    hourstick.angle = map(hr + norm(mn, 0, 60), 0, 12, 0, TWO_PI) - HALF_PI;
 
 }
 
