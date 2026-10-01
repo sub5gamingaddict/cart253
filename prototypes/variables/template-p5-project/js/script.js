@@ -44,12 +44,14 @@ let secondstick = {
     color: "#c21313",
 }
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * sets up canvas.
 */
 function setup() {
    createCanvas(800, 800);
    
-
+/**
+ * sets up clock elements.
+*/
 }
 function draw() {
     background("#000000");
@@ -64,7 +66,9 @@ function draw() {
     drawcenterpivot();
 
 }
-
+/**
+ * sets up clock hand movements.
+*/
 function updatehands() {
     let hr = hour() %12;
     let mn = minute();
@@ -78,7 +82,7 @@ function updatehands() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * draws clock.
 */
 function drawclock() {
     push();
@@ -88,6 +92,9 @@ function drawclock() {
 
 }
 
+/**
+ * draws center pivot.
+*/
 function drawcenterpivot() {
     push();
     fill(centerPivot.color);
@@ -97,6 +104,9 @@ function drawcenterpivot() {
 
 }
 
+/**
+ * adds roman numbers.
+*/
 function drawromannumbers() {
     push();
     fill("#050505");
@@ -113,6 +123,9 @@ function drawromannumbers() {
     
 }
 
+/**
+ * draws hour stick.
+*/
 function drawhourstick() {
     push();
     stroke(hourstick.color);
@@ -121,6 +134,9 @@ function drawhourstick() {
     pop();
 }
 
+/**
+ * draws minute stick.
+*/
 function drawminutestick() {
     push();
     stroke(minutestick.color);
@@ -129,6 +145,9 @@ function drawminutestick() {
     pop();
 }
 
+/**
+ * draws second stick.
+*/
 function drawsecondstick() {
     push();
     stroke(secondstick.color);
