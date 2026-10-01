@@ -18,6 +18,13 @@ let sun = {
     color: "#ffdf29"
 };
 
+let mountain = {
+    x: 400,
+    y: 800,
+    size: 600,
+    color: "#141625"
+};
+
 /**
  * set up canvas,
 */
@@ -39,13 +46,21 @@ function draw() {
    background(nighttime);
 
    drawsun();
-   
+   drawmountain();
 }
 
 function drawsun() {
     push();
     fill(sun.color);
     ellipse(sun.x, sun.y, sun.size, sun.size);
+    pop();
+    noStroke();
+}
+
+function drawmountain() {
+    push();
+    fill(mountain.color);
+    triangle(mountain.x - mountain.size/2, mountain.y, mountain.x, mountain.y - mountain.size/2, mountain.x + mountain.size/2, mountain.y);
     pop();
     noStroke();
 }
