@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * shape randomizer
+ * Wassim Naim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This project generates random shapes on the canvas. try to generate until you get the same shape in all 6 slots!
  */
 
 "use strict";
@@ -12,6 +11,8 @@
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
+createCanvas(800, 250);
+background("purple");
 
 }
 
