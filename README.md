@@ -41,8 +41,6 @@ This website was made with the purpose of showcase my prototyping work in this c
 </p>
 [source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/lizard-eyes)
 
-## [prototyping journal](prototype-journal.md)
-
 ## Variables:
 
 [Clock](https://sub5gamingaddict.github.io/cart253/prototypes/variables/clock/)
