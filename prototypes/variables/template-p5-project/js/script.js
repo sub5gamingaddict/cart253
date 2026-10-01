@@ -18,11 +18,12 @@ let slot3 = "triangle";
 function setup() {
 createCanvas(800, 250);
 rectMode(CENTER);
-background("purple");
 
 }
 
 function draw() {
+    background("purple");
+
     drawShape(slot1, 100, 125, 200);
     drawShape(slot2, 400, 125, 200);
     drawShape(slot3, 700, 125, 200);
