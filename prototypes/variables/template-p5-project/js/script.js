@@ -22,6 +22,10 @@ let centerPivot = {
     size: 30,
     color: "#050505",
 };
+
+let romannumbers = ["XII", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"
+    
+];
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
@@ -32,6 +36,7 @@ function setup() {
     
     drawclock();
     drawcenterpivot();
+    draw1();
 }
 
 
@@ -53,3 +58,4 @@ function drawcenterpivot() {
     pop();
     nostroke();
 }
+
