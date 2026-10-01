@@ -62,7 +62,7 @@ mountain2color = { color: color("#967b52") };
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * draws canvas.
 */
 function draw() {
    nighttime= lerpColor(nighttime, daytime, 0.003);   
@@ -74,6 +74,9 @@ function draw() {
    drawmountain2();
 }
 
+/**
+ * draws sun.
+*/
 function drawsun() {
     push();
     fill(sun.color);
@@ -84,6 +87,9 @@ function drawsun() {
     sun.y = lerp(sun.y, sunrise.y, 0.001);
 }
 
+/**
+ * draws first mountain.
+ */
 function drawmountain1() {
     push();
     fill(mountain1.color);
@@ -94,6 +100,9 @@ function drawmountain1() {
     mountain1.color = lerpColor(mountain1.color, mountain1color.color, 0.001);
 }
 
+/**
+ * draws second mountain.
+ */
 function drawmountain2() {
     push();
     fill(mountain2.color);
