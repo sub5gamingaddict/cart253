@@ -11,6 +11,13 @@
 let nighttime;
 let daytime;
 
+let sun = {
+    x: 400,
+    y: 750,
+    size: 250,
+    color: "#ffdf29"
+};
+
 /**
  * set up canvas,
 */
@@ -30,4 +37,15 @@ function draw() {
    nighttime= lerpColor(nighttime, daytime, 0.001);   
 
    background(nighttime);
+
+   drawsun();
+   
+}
+
+function drawsun() {
+    push();
+    fill(sun.color);
+    ellipse(sun.x, sun.y, sun.size, sun.size);
+    pop();
+    noStroke();
 }
