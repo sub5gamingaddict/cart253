@@ -18,14 +18,9 @@ let sun = {
     color: "#ffdf29"
 };
 
-let sunset = {
-    x: 400,
-    size: 250,
-    color: "#ffdf29"
-};
-
 let sunrise = {
-    x: 400,
+    x:400,
+    y: 400,
     size: 250,
     color: "#ffdf29"
 };
@@ -33,17 +28,25 @@ let sunrise = {
 let mountain1 = {
     x: 150,
     y: 900,
-    size: 600,
+    size: 700,
     color: "#141625"
 };
+
 
 let mountain2 = {
     x: 650,
     y: 900,
-    size: 600,
+    size: 700,
     color: "#141625"
 };
 
+let mountain1color = {
+    color: "#967b52"
+};
+
+let mountain2color = {
+    color: "#967b52"
+};
 
 /**
  * set up canvas,
@@ -61,7 +64,7 @@ daytime= color(147, 213, 255);
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-   nighttime= lerpColor(nighttime, daytime, 0.001);   
+   nighttime= lerpColor(nighttime, daytime, 0.003);   
 
    background(nighttime);
 
@@ -76,6 +79,8 @@ function drawsun() {
     ellipse(sun.x, sun.y, sun.size, sun.size);
     pop();
     noStroke();
+
+    sun.y = lerp(sun.y, sunrise.y, 0.001);
 }
 
 function drawmountain1() {
@@ -84,6 +89,7 @@ function drawmountain1() {
     triangle(mountain1.x - mountain1.size/2, mountain1.y, mountain1.x, mountain1.y - mountain1.size/2, mountain1.x + mountain1.size/2, mountain1.y);
     pop();
     noStroke();
+
 }
 
 function drawmountain2() {
@@ -92,4 +98,7 @@ function drawmountain2() {
     triangle(mountain2.x - mountain2.size/2, mountain2.y, mountain2.x, mountain2.y - mountain2.size/2, mountain2.x + mountain2.size/2, mountain2.y);
     pop();
     noStroke();
+
+
 }
+
