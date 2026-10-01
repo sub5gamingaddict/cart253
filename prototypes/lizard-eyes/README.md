@@ -1,4 +1,4 @@
-# Penguin
+# Lizard Eyes
 
 Wassim Naim
 
@@ -6,7 +6,7 @@ Wassim Naim
 
 ## Description
 
-cute lil penguin.
+stare.
 
 ## Attribution
 

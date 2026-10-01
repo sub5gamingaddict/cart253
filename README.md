@@ -20,7 +20,7 @@ This website was made with the purpose of showcase my prototyping work in this c
 
 ## Prototyping assignment📝
 
-[Penguin](https://sub5gamingaddict.github.io/cart253/prototypes/instructions-prototype-1/)
+[Penguin](https://sub5gamingaddict.github.io/cart253/prototypes/penguin/)
 
 <p align="center">
   <img src="images/penguin.png" alt="penguin">
