@@ -7,6 +7,9 @@
 
 "use strict";
 
+/**
+ * variables.
+ */
 let wheel = {
     x: 400,
     y: 400,

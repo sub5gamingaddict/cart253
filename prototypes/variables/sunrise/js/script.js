@@ -7,6 +7,9 @@
 
 "use strict";
 
+/**
+ * variables.
+ */
 let nighttime;
 let daytime;
 
