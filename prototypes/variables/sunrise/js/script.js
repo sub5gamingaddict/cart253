@@ -10,8 +10,8 @@
 
 let skycolor = {
      //color
-     r: 191
-     g: 229
+     r: 191,
+     g: 229,
      b: 255
 
 };
@@ -29,5 +29,6 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+     background(skycolor.r, skycolor.g, skycolor.b);
 
 }
