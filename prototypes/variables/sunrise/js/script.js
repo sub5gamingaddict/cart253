@@ -40,13 +40,8 @@ let mountain2 = {
     color: "#141625"
 };
 
-let mountain1color = {
-    color: "#967b52"
-};
-
-let mountain2color = {
-    color: "#967b52"
-};
+let mountain1color;
+let mountain2color;
 
 /**
  * set up canvas,
@@ -56,6 +51,12 @@ function setup() {
 
 nighttime= color(24, 40, 71);
 daytime= color(147, 213, 255);
+
+mountain1.color = color("#141625");
+mountain2.color = color("#141625");
+
+mountain1color = { color: color("#967b52") };
+mountain2color = { color: color("#967b52") };
 
 }
 
