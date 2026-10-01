@@ -24,9 +24,9 @@ rectMode(CENTER);
 function draw() {
     background("purple");
 
-    drawShape(slot1, 100, 125, 200);
+    drawShape(slot1, 110, 125, 200);
     drawShape(slot2, 400, 125, 200);
-    drawShape(slot3, 700, 125, 200);
+    drawShape(slot3, 690, 125, 200);
 }
 
 /**
