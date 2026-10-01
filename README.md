@@ -39,3 +39,23 @@ This website was made with the purpose of showcase my prototyping work in this c
 </p>
 
 ## [prototyping journal](prototype-journal.md)
+
+## Variables:
+
+[Clock](https://sub5gamingaddict.github.io/cart253/prototypes/variables/clock/)
+
+<p align="center">
+  <img src="images/clock.png" alt="Clock">
+</p>
+
+[Sunrise](https://sub5gamingaddict.github.io/cart253/prototypes/variables/sunrise/)
+
+<p align="center">
+  <img src="images/sunrise.png" alt="Sunrise">
+</p>
+
+[Shape Randomizer](https://sub5gamingaddict.github.io/cart253/prototypes/variables/randomizer/)
+
+<p align="center">
+  <img src="images/randomizer.png" alt="Shape Randomizer">
+</p>
