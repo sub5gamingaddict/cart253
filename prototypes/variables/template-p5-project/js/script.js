@@ -7,6 +7,9 @@
 
 "use strict";
 
+let slot1 = "circle";
+let slot2 = "square";
+let slot3 = "triangle";
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
