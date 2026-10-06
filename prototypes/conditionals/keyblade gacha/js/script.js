@@ -10,13 +10,13 @@
 /**
  * keyblade chest variable.
 */
-let keybladeChest = undefined;
+let keybladeChest;
 
 /**
  * Loading the chest of keyblades.
 */
-async function loadKeybladeChest() {
-    keybladeChest = await loadimage("assets/images/blackbox.png");
+async function preload() {
+    keybladeChest = await loadImage("assets/images/blackbox.png");
 }
 
 async function setup() {
@@ -26,5 +26,5 @@ async function setup() {
 
 function draw() {
     background(0);
-    image(keybladeChest, 100, 50);
+    image(keybladeChest, 150, 50, 500, 500);
 }
