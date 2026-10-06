@@ -15,8 +15,11 @@ let keybladeChest;
 /**
  * keyblade drops variable.
 */
-let keyblade = undefined;
-
+let gazingeye;
+let oathkeeper;
+let oblivion;
+let kingdomkey;
+let braveheart;
 /**
  * Loading the chest of keyblades.
 */
@@ -36,7 +39,17 @@ async function setup() {
 
 function draw() {
     background(0);
+
+    if (keyblade) {
+        image(keyblade, 150, 50, 500, 500);
+    }
+    else {
     image(keybladeChest, 150, 50, 500, 500);
+    }
+}
+
+function mousePressed() {
+    keyblade = pull();
 }
 
 function pull() {
@@ -46,7 +59,7 @@ if (p < 0.01) {
     keyblade = "gazingeye";
 }
 
-else if (p < 0.20) {
+else if (p < 0.10) {
     keyblade = "oathkeeper";
 }
 
