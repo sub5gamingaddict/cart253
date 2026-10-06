@@ -16,7 +16,7 @@ let keybladeChest = undefined;
  * Loading the chest of keyblades.
 */
 async function loadKeybladeChest() {
-    keybladeChest = await loadimage("assets/keyblades/black_box_KH0.2.webp");
+    keybladeChest = await loadimage("assets/images/blackbox.png");
 }
 
 async function setup() {
