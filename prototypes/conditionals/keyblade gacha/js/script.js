@@ -19,7 +19,12 @@ async function loadKeybladeChest() {
     keybladeChest = await loadimage("assets/keyblades/black_box_KH0.2.webp");
 }
 
-function setup() {
+async function setup() {
     createCanvas(800, 600);
-    loadKeybladeChest();
+    await preload();
+}
+
+function draw() {
+    background(0);
+    image(keybladeChest, 100, 50);
 }
