@@ -8,16 +8,12 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * keyblade chest variable.
 */
-function setup() {
-
-}
-
+let keybladeChest = undefined;
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Loading the chest of keyblades.
 */
-function draw() {
-
-}
+async function loadKeybladeChest() {
+    keybladeChest = await loadimage("")
