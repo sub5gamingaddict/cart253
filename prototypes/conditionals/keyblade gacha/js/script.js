@@ -22,6 +22,11 @@ let keyblade = undefined;
 */
 async function preload() {
     keybladeChest = await loadImage("assets/images/blackbox.png");
+    gazingeye = await loadImage("assets/images/gazingeye.png");
+    oathkeeper = await loadImage("assets/images/oathkeeper.png");
+    oblivion = await loadImage("assets/images/oblivion.png");
+    kingdomkey = await loadImage("assets/images/kingdomkey.png");
+    braveheart = await loadImage("assets/images/braveheart.png");
 }
 
 async function setup() {
@@ -34,25 +39,26 @@ function draw() {
     image(keybladeChest, 150, 50, 500, 500);
 }
 
+function pull() {
 const p = random();
 
 if (p < 0.01) {
-    keyblade = "gazingeye.png";
+    keyblade = "gazingeye";
 }
 
 else if (p < 0.20) {
-    keyblade = "oathkeeper.png";
+    keyblade = "oathkeeper";
 }
 
 else if (p < 0.20) {
-    keyblade = "oblivion.png";
+    keyblade = "oblivion";
 }
 
 else if (p < 0.50) {
-    keyblade = "kingdomkey.png";
+    keyblade = "kingdomkey";
 }
 
 else {
-    keyblade = "braveheart.png";
+    keyblade = "braveheart";
 }
-
+}
