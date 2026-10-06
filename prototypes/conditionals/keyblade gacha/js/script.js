@@ -18,3 +18,8 @@ let keybladeChest = undefined;
 async function loadKeybladeChest() {
     keybladeChest = await loadimage("assets/keyblades/black_box_KH0.2.webp");
 }
+
+function setup() {
+    createCanvas(800, 600);
+    loadKeybladeChest();
+}
