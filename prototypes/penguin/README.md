@@ -2,7 +2,7 @@
 
 Wassim Naim
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://sub5gamingaddict.github.io/cart253/prototypes/penguin/)
 
 ## Description
 
