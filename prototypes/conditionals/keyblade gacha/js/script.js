@@ -33,3 +33,26 @@ function draw() {
     background(0);
     image(keybladeChest, 150, 50, 500, 500);
 }
+
+const p = random();
+
+if (p < 0.01) {
+    keyblade = "gazingeye.png";
+}
+
+else if (p < 0.20) {
+    keyblade = "oathkeeper.png";
+}
+
+else if (p < 0.20) {
+    keyblade = "oblivion.png";
+}
+
+else if (p < 0.50) {
+    keyblade = "kingdomkey.png";
+}
+
+else {
+    keyblade = "braveheart.png";
+}
+
