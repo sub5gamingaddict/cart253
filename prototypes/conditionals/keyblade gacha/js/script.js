@@ -13,6 +13,11 @@
 let keybladeChest;
 
 /**
+ * keyblade drops variable.
+*/
+let keyblade = undefined;
+
+/**
  * Loading the chest of keyblades.
 */
 async function preload() {
