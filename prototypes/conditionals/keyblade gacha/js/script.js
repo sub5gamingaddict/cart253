@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Keyblade Gacha
+ * Wassim Naim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * this is a program that allows you to pull for keyblades.
  */
 
 "use strict";
