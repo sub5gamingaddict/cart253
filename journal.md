@@ -112,6 +112,8 @@ For the second one, i used the "screen wrap project" as inspiration, but instead
 
 I spent some time making sure that i have commented on every line of code.
 
+This last one was actually the one that enjoyed the most, I did a basic code where rarity (from my little pony) avoids the cursor who is also spike, the cursor change idea was actually something i thought of after finishing the main cursor avoidant mechanic, which was pretty simple, it reminded me alot of the two overlapping circles that we saw in class, since both use the distance as a reference to know when to avoid or lean away from the cursor. But yeah, this was alot more simple than the other two, since it only required me to replace the cursor, load an image, and use conditionals for the distance calculating aspect. Still, this one is definetly my favourite from the three.
+
 
 
 
