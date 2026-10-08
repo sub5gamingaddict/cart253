@@ -1,14 +1,20 @@
 /**
- * Title of Project
- * Author Name
+ * Snow
+ * Wassim Naim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ *winter simulator.
  */
 
 "use strict";
 
+/**
+ * Snowflakes storage
+ */
 const snowflakes = [];
+
+/**
+ * THE snowflake
+ */
 
 function createSnow() {
     return {
@@ -37,15 +43,13 @@ function setup() {
 */
 function draw() {
     background("#87ceeb");
-
+/**
+ * makes snowflakes
+ */
     if (random() < 0.1){
         snowflakes.push(createSnow( ));
     }
-/*
-    if (snow.y > 600){
-        snowflakes.splice(i , 1);
-    }
-        */
+
        for (const snow of snowflakes){
           moveSnow(snow);
           drawSnow(snow);
@@ -53,6 +57,10 @@ function draw() {
   
 
 }
+
+/**
+ * randomizes the velocity of the snow flakes.
+ */
 
 function moveSnow(snow){
     const chance = random();
@@ -68,6 +76,10 @@ function moveSnow(snow){
     snow.x += snow.velocity.x;
     snow.y += snow.velocity.y;
 }
+
+/**
+ * draws the snowflakes
+ */
 
 function drawSnow(snow) {
     push();
