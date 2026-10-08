@@ -21,6 +21,7 @@ let oathkeeper;
 let oblivion;
 let kingdomkey;
 let braveheart;
+let xblade
 /**
  * Loading the chest of keyblades.
 */
@@ -31,6 +32,7 @@ async function preload() {
     oblivion = await loadImage("assets/images/oblivion.png");
     kingdomkey = await loadImage("assets/images/kingdomkey.png");
     braveheart = await loadImage("assets/images/braveheart.png");
+    xblade = await loadImage("assets/images/xblade.webp")
 }
 
 /**
@@ -72,7 +74,11 @@ function mousePressed() {
 function pull() {
 const p = random();
 
-if (p < 0.01) {
+if (p < 0.01){
+    return xblade;
+}
+
+if (p < 0.05) {
     return gazingeye;
 }
 
