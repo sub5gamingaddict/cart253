@@ -2,7 +2,7 @@
 
 Wassim Naim
 
-[Click to view.](sub5gamingaddict.github.io/cart253/prototypes/conditionals/keyblade-gacha)
+[Click me!](https://sub5gamingaddict.github.io/cart253/prototypes/conditionals/keyblade-gacha/)
 
 ## Description
 
