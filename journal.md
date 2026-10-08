@@ -107,12 +107,26 @@ For the first prototype, I decided to expand on the shape generator prototype, b
 
 So, i came back to finish the first prototype, after adding the mouse press interaction that allowed the program to pull an image from the number of images that i have already loaded. i was thinking about adding sound, but apparently, there's restrictions that dont allow sound to be played unless you click on something first, so i decided to scrap the idea.
 
+<div class="images">
+    <img src="images/brave.png" alt="brave">
+    <img src="images/noname.png" alt="noname">
+    <img src="images/kingdom.png" alt="kingdom">
+</div>
+
 For the second one, i used the "screen wrap project" as inspiration, but instead of a random moving circle, i wanted to make falling snowflakes. I started by looking at the code to imitate the movement of the pink circle, changing it's velocity to make it drop from top to bottom. after that i used conditionals to randomize the velocity, making the snow fall down more naturally. but now...i needed to figure out how to make the program generate snow so it doesnt stop. So while working on this, i realised that i had to override the whole snowflake (white circle), i still kept the main values, and the velocity randomizer stayed the same, i just edited it so it generated snowflakes, using conditionals.
+
+<p align="center">
+  <img src="images/snow.png" alt="snow">
+</p>
+
 
 I spent some time making sure that i have commented on every line of code.
 
 This last one was actually the one that enjoyed the most, I did a basic code where rarity (from my little pony) avoids the cursor who is also spike, the cursor change idea was actually something i thought of after finishing the main cursor avoidant mechanic, which was pretty simple, it reminded me alot of the two overlapping circles that we saw in class, since both use the distance as a reference to know when to avoid or lean away from the cursor. But yeah, this was alot more simple than the other two, since it only required me to replace the cursor, load an image, and use conditionals for the distance calculating aspect. Still, this one is definetly my favourite from the three.
 
+<p align="center">
+  <img src="images/getaway.png" alt="getaway">
+</p>
 
 
 
