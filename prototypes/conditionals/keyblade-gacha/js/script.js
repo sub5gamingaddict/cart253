@@ -33,11 +33,17 @@ async function preload() {
     braveheart = await loadImage("assets/images/braveheart.png");
 }
 
+/**
+ * creates canvas
+ */
 async function setup() {
     createCanvas(800, 600);
     await preload();
 }
 
+/**
+ * draws the keyblade chest and keyblades.
+ */
 function draw() {
     background(0);
 
@@ -51,12 +57,18 @@ function draw() {
     }
 }
 
+/**
+ * makes it so a random keyblade appears when clicking on the canvas.
+ */
 function mousePressed() {
     if (!keyblade){
     keyblade = pull();
     }
 }
 
+/**
+ * keyblade drop chances
+ */
 function pull() {
 const p = random();
 
