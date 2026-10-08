@@ -39,6 +39,16 @@ function draw() {
 }
 
 function moveSnow(){
+    const chance = random();
+    if (chance < 0.05) {
+    snow.velocity.x= -0.5;
+}
+    else if (chance < 0.10){
+        snow.velocity.x= 0.5;
+    }
+    else if (chance < 0.15) {
+        snow.velocity.x= 0;
+    }
     snow.x += snow.velocity.x;
     snow.y += snow.velocity.y;
 }
