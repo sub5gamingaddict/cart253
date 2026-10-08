@@ -8,10 +8,14 @@
 
 "use strict";
 
-const mover = {
+const snow = {
     x: 150,
     y: 150,
     size: 15,
+    velocity:{
+        x: 0,
+        y: 3
+    },
     fill: "#ffffff"
 }
 
@@ -29,14 +33,20 @@ function setup() {
 */
 function draw() {
     background("#87ceeb");
-    drawmover();
+    moveSnow();
+    drawSnow();
 
 }
 
-function drawmover() {
+function moveSnow(){
+    snow.x += snow.velocity.x;
+    snow.y += snow.velocity.y;
+}
+
+function drawSnow() {
     push();
-    fill(mover.fill);
+    fill(snow.fill);
     noStroke();
-    ellipse(mover.x, mover.y, mover.size);
+    ellipse(snow.x, snow.y, snow.size);
     pop();
 }
