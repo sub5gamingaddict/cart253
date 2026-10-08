@@ -18,8 +18,9 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * adds project elements.
 */
 function draw() {
+    background("#acb3f3")
 
 }
