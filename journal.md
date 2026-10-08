@@ -98,3 +98,18 @@ so i learnt alot of things from these three prototypes, before, i didnt really u
     <img src="images/sunrise.png" alt="sunrise">
     <img src="images/randomizer.png" alt="randomizer">
 </div>
+
+## october 5 2026
+
+So, last time, I understood that my descriptions of what i was doing made me come off as uncertain or doing stuff that i didn't know, so this time, i'll try to be more descriptive.
+
+For the first prototype, I decided to expand on the shape generator prototype, but this time, I put my favourite game in the mix, KINGDOM HEARTS!! i started by looking at the one of the projects that were showcased in class (the loot drops one), i used the probability code as a base and then moved from there by adding a mouse press interaction, it didnt work at first and it was already late so i took a break. 
+
+## october 7 2026
+So, i came back to finish the first prototype, after adding the mouse press interaction that allowed the program to pull an image from the number of images that i have already loaded. i was thinking about adding sound, but apparently, there's restrictions that dont allow sound to be played unless you click on something first, so i decided to scrap the idea.
+
+
+
+
+
+
