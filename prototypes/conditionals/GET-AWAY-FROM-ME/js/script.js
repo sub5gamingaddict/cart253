@@ -45,7 +45,7 @@ function moveRarity () {
         }
         
         else if (mouseX > rarity.y){
-            rarity.y -= rarity.speed;
+            rarity.x -= rarity.speed;
         }
 
         if (mouseY < rarity.y){
