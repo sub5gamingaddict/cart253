@@ -2,7 +2,7 @@
 
 Wassim Naim
 
-[Click me!](URL_FOR_THE_RUNNING_PROJECT)
+[Click me!](https://sub5gamingaddict.github.io/cart253/prototypes/conditionals/snow)
 
 ## Description
 

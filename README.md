@@ -63,3 +63,24 @@ This website was made with the purpose of showcase my prototyping work in this c
   <img src="images/randomizer.png" alt="Shape Randomizer">
 </p>
 [source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/randomizer)
+
+[Black Box](https://sub5gamingaddict.github.io/cart253/prototypes/conditionals/keyblade-gacha)
+
+<p align="center">
+  <img src="images/randomizer.png" alt="Shape Randomizer">
+</p>
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/keyblade-gacha)
+
+[Snow](https://sub5gamingaddict.github.io/cart253/prototypes/conditionals/snow)
+
+<p align="center">
+  <img src="images/randomizer.png" alt="Shape Randomizer">
+</p>
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/snow)
+
+[Rarity](https://sub5gamingaddict.github.io/cart253/prototypes/conditionals/GET-AWAY-FROM-ME)
+
+<p align="center">
+  <img src="images/randomizer.png" alt="Shape Randomizer">
+</p>
+[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/GET-AWAY-FROM-ME)
