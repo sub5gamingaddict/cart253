@@ -108,6 +108,14 @@ For the first prototype, I decided to expand on the shape generator prototype, b
 ## october 7 2026
 So, i came back to finish the first prototype, after adding the mouse press interaction that allowed the program to pull an image from the number of images that i have already loaded. i was thinking about adding sound, but apparently, there's restrictions that dont allow sound to be played unless you click on something first, so i decided to scrap the idea.
 
+For the second one, i used the "screen wrap project" as inspiration, but instead of a random moving circle, i wanted to make falling snowflakes. I started by looking at the code to imitate the movement of the pink circle, changing it's velocity to make it drop from top to bottom. after that i used conditionals to randomize the velocity, making the snow fall down more naturally. but now...i needed to figure out how to make the program generate snow so it doesnt stop. So while working on this, i realised that i had to override the whole snowflake (white circle), i still kept the main values, and the velocity randomizer stayed the same, i just edited it so it generated snowflakes, using conditionals.
+
+I spent some time making sure that i have commented on every line of code.
+
+
+
+
+
 
 
 
