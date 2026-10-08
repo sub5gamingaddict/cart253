@@ -8,15 +8,19 @@
 
 "use strict";
 
-const snow = {
-    x: 150,
-    y: 150,
-    size: 15,
-    velocity:{
-        x: 0,
-        y: 3
-    },
-    fill: "#ffffff"
+const snowflakes = [];
+
+function createSnow() {
+    return {
+        x: random(0, 600),
+        y: 0,
+        size: random(7,20),
+        velocity:{
+            x: 0,
+            y: random(2, 3)
+        },
+        fill: "#ffffff"
+    }
 }
 
 /**
@@ -33,12 +37,24 @@ function setup() {
 */
 function draw() {
     background("#87ceeb");
-    moveSnow();
-    drawSnow();
+
+    if (random() < 0.1){
+        snowflakes.push(createSnow( ));
+    }
+/*
+    if (snow.y > 600){
+        snowflakes.splice(i , 1);
+    }
+        */
+       for (const snow of snowflakes){
+          moveSnow(snow);
+          drawSnow(snow);
+       }
+  
 
 }
 
-function moveSnow(){
+function moveSnow(snow){
     const chance = random();
     if (chance < 0.05) {
     snow.velocity.x= -0.5;
@@ -53,7 +69,7 @@ function moveSnow(){
     snow.y += snow.velocity.y;
 }
 
-function drawSnow() {
+function drawSnow(snow) {
     push();
     fill(snow.fill);
     noStroke();
