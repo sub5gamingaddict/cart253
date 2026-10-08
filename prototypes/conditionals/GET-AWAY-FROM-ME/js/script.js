@@ -8,13 +8,18 @@
 
 "use strict";
 
-let rarityImage
+/**
+ * variable for rarity and spike
+ */
+
+let rarityImage;
+let cursorImage;
 
 const rarity = {
     x: 300,
     y: 300,
-    size: 100,
-    speed: 3
+    size: 150,
+    speed: 6
 }
 /**
  * creates canvas
@@ -28,10 +33,20 @@ async function setup() {
     imageMode(CENTER);
 
 /**
+ * removes cursor
+ */
+    noCursor();
+
+/**
  * loads rarity image
  */
 
     rarityImage = await loadImage("assets/images/rarity-scare.png")
+
+/**
+ * loads spike image
+ */
+    cursorImage = await loadImage("assets/images/spike.jpg")
     
 
 }
@@ -56,8 +71,12 @@ function moveRarity () {
         }
     }
 
-    rarity.x = constrain(rarity.x, 0, width)
-    rarity.y = constrain(rarity.y, 0, width)
+    /**
+     * stops rarity from leaving the canvas
+     */
+
+    rarity.x = constrain(rarity.x, 0, 800)
+    rarity.y = constrain(rarity.y, 0, 800)
 }
 
 
@@ -70,7 +89,16 @@ function draw() {
     moveRarity();
     drawRarity();
 
+/**
+ * replaces the cursor with the image
+ */
+    image(cursorImage, mouseX, mouseY, 100, 100);
+
 }
+
+/**
+ *draws rarity
+ */
 
 function drawRarity(){
     image(rarityImage, rarity.x, rarity.y, rarity.size, rarity.size);
