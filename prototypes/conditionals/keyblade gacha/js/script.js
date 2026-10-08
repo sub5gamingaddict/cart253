@@ -11,6 +11,7 @@
  * keyblade chest variable.
 */
 let keybladeChest;
+let keyblade;
 
 /**
  * keyblade drops variable.
@@ -40,6 +41,8 @@ async function setup() {
 function draw() {
     background(0);
 
+    if (!keybladeChest) return;
+
     if (keyblade) {
         image(keyblade, 150, 50, 500, 500);
     }
@@ -49,29 +52,32 @@ function draw() {
 }
 
 function mousePressed() {
+    if (!keyblade){
     keyblade = pull();
+    }
 }
 
 function pull() {
 const p = random();
 
 if (p < 0.01) {
-    keyblade = "gazingeye";
+    return gazingeye;
 }
 
 else if (p < 0.10) {
-    keyblade = "oathkeeper";
+    return oathkeeper;
 }
 
 else if (p < 0.20) {
-    keyblade = "oblivion";
+    return oblivion;
 }
 
 else if (p < 0.50) {
-    keyblade = "kingdomkey";
+    return kingdomkey;
 }
 
 else {
-    keyblade = "braveheart";
+    return braveheart;
 }
 }
+
