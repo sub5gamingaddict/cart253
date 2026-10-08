@@ -13,14 +13,14 @@ let rarityImage
 const rarity = {
     x: 300,
     y: 300,
-    size: 70,
+    size: 100,
     speed: 3
 }
 /**
  * creates canvas
 */
 async function setup() {
-    createCanvas(600, 600)
+    createCanvas(800, 800)
 
 /**
  * Centers the image.
