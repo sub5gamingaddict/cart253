@@ -23,21 +23,51 @@ async function setup() {
     createCanvas(800, 800)
 
 /**
- * Centers the image.
+ * Centers the image
  */
     imageMode(CENTER);
 
-    rarityImage = await loadImage("assets/images/rarity-scare.png")
+/**
+ * loads rarity image
+ */
 
+    rarityImage = await loadImage("assets/images/rarity-scare.png")
+    
+
+}
+
+function moveRarity () {
+    const d = dist(mouseX, mouseY, rarity.x, rarity.y);
+
+    if (d < 150) {
+        if (mouseX < rarity.x){
+            rarity.x += rarity.speed;
+        }
+        
+        else if (mouseX > rarity.y){
+            rarity.y -= rarity.speed;
+        }
+
+        if (mouseY < rarity.y){
+            rarity.y += rarity.speed;
+        }
+        else if (mouseY > rarity.y){
+            rarity.y -= rarity.speed;
+        }
+    }
+
+    rarity.x = constrain(rarity.x, 0, width)
+    rarity.y = constrain(rarity.y, 0, width)
 }
 
 
 /**
- * adds project elements.
+ * adds project elements
 */
 function draw() {
     background("#acb3f3")
 
+    moveRarity();
     drawRarity();
 
 }
