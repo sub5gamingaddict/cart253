@@ -12,6 +12,8 @@
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
+    
+    createCanvas(1080, 1080)
 
 }
 
@@ -20,5 +22,7 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+
+    background(0)
 
 }
