@@ -12,12 +12,14 @@ const yarn = {
     img: undefined,
     x: 540,
     y: 540,
-    size: 200
+    size: 200,
+    meow: undefined,
 }
 
 async function preload() {
 
      yarn.img = await loadImage("assets/images/ball.png");
+     yarn.meow = await loadSound("assets/sounds/meow.mp3")
 }
 
 /**
@@ -53,6 +55,7 @@ function mousePressed(){
     const d = dist(mouseX, mouseY, yarn.x, yarn.y);
     const clicked = (d < yarn.size/2)
     if(clicked) {
+        yarn.meow.play();
         resetYarn();
     }
 }
