@@ -54,4 +54,5 @@ function draw() {
 
 function mousePressed() {
     angry = true;
+    wakeUpTime = millis();
 }
