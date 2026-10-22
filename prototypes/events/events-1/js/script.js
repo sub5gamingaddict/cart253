@@ -9,7 +9,7 @@
 "use strict";
 
 let sleepingCat;
-let angryCat;
+let angryCat = false;
 
 async function preload() {
 
@@ -23,6 +23,7 @@ async function preload() {
 async function setup() {
 
     createCanvas(1080, 1080);
+    imageMode(CENTER);
     await preload();
 
 }
@@ -33,10 +34,16 @@ async function setup() {
 */
 function draw() {
 
+    background(0);
+
     if (!sleepingCat) return;
      if (angryCat) {
         image(angryCat, 150, 50, 500, 500);
     }
     
 
+}
+
+function mousePressed() {
+    angryCat =!angryCat
 }
