@@ -139,7 +139,8 @@ so, for the first one, it was a simple cute idea where i wanted to make an inter
 
 next prototype also had a cat, why? idk, i like cats. this one was different tho. i wanted to jumpscare people, the main plan was to use the prototype that we did in class (in groups) as a point of reference. The idea was simple, a cat is begging you to stay, but what if you don't? that's when you get jumpscared. the coding for this was pretty simple since i took code from the challenge that we did in our studio time, i was thinking about adding a creepy sound to set the tone but i realised that i would have to loop it and that would probably sound awkward.
 
-for the final one, i tried to make it cat themed too. So i made a game! the idea was simple, you're a cat who's following a yarn ball.
+for the final one, i tried to make it cat themed too. So i made a game! the idea was simple, you're a cat who's following a yarn ball. I used one of the projects that we saw in class as reference here (the coin collector one), and this one was by far the easiest, since i basically had a point of reference that i could go back to whenever i got stuck. I added a cat image as a cursor which looked pretty cute, and after i added the yarn ball i realised that it had a watermark on it, i couldnt find a better picture on google tho so i had to stick with it. now that i think about it, i can just turn the background to white instead of black and the watermark would be hidden, oh wow im a genius, lemme do that real quick. anyways after finishing the whole game, i decided to added a sound effect that played when you collected a yarn ball, but of course, i couldnt just add a normal cute cat meow, i had to find an......interesting one, and that i did! anyways this was definetly my favourite and i enjoyed making these alot!
+please regrade my previous assignement, it was a missunderstanding, my links were always working :<.
 
 
 
