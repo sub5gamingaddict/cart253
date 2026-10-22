@@ -88,4 +88,5 @@ This website was made with the purpose of showcase my prototyping work in this c
 <p align="center">
   <img src="images/getaway.png" alt="getaway">
 </p>
-[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/GET-AWAY-FROM-ME)
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/GET-AWAY-FROM-ME)
