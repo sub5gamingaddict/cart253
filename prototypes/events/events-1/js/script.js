@@ -9,7 +9,8 @@
 "use strict";
 
 let sleepingCat;
-let angryCat = false;
+let angryCat;
+let angry = false;
 
 async function preload() {
 
@@ -36,14 +37,15 @@ function draw() {
 
     background(0);
 
-    if (!sleepingCat) return;
-     if (angryCat) {
-        image(angryCat, 150, 50, 500, 500);
+    if (angry) {
+        image(angryCat, 540, 540, 1080, 1080);
     }
-    
+    else{
+        image(sleepingCat, 540, 540, 1080, 1080);
+    }
 
 }
 
 function mousePressed() {
-    angryCat =!angryCat
+    angry = true;
 }
