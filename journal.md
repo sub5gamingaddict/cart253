@@ -131,7 +131,13 @@ This last one was actually the one that enjoyed the most, I did a basic code whe
 
 
 
+## october 21 2026
 
+so i just realised that i got a 0 in the previous prototype assignement, apparently the links weren't working, but when i checked them, they worked completely fine. pretty sure this was just a missunderstanding. ANYWAYS, this is just a rant to start documenting my prototype programming process.
+
+so, for the first one, it was a simple cute idea where i wanted to make an interactive page where you waked up a cat from their peaceful slumber. i chose this idea cuz it was an easy one to program duh. I did face some challenges tho. the first part was programming the interaction (using mouse pressed), which wasn't anything new, however i wanted to add more immersion, so i wanted to make it so the cat went back to sleep after 10 seconds, i did that by using millis. i thought that everything was fine until i noticed that this only worked once, because after that, the cat refused to wake up (it woke up for a split second), i realised that this happened because i was missing a line of code, so i added it! and now that im writing this, i realised that i didnt comment on my code, so lemme do that real quick.
+
+next prototype also had a cat, why? idk, i like cats. this one was different tho. i wanted to jumpscare people, the main plan was to use the prototype that we did in class (in groups) as a base.
 
 
 
