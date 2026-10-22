@@ -8,33 +8,36 @@
 
 "use strict";
 
+let cuteCat;
+let scaryCat;
+let scary = false;
+
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
-function setup() {
-    
-    createCanvas(1080, 1080)
-
-}
-
 async function preload() {
 
      cuteCat = await loadImage("assets/images/cutecat.jpg");
      scaryCat = await loadImage("assets/images/scarycat.jpg")
 }
 
+async function setup() {
+    
+    createCanvas(1080, 1080)
+    imageMode(CENTER);
+    await preload();
 
-
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
-function draw() {
-
-    background(0)
 
 }
 
-function cat() {
+function draw(){
 
+    background(0)
 
+         if (scary) {
+        image(scaryCat, 540, 540, 1080, 1080);
+    }
+    else{
+        image(cuteCat, 540, 540, 1080, 1080);
+    }
 }
