@@ -7,6 +7,9 @@
 
 "use strict";
 
+/**
+ * yarn ball properties
+ */
 const yarn = {
     img: undefined,
     x: 540,
@@ -15,6 +18,10 @@ const yarn = {
     meow: undefined,
 }
 
+/**
+ * loads the image and the sound
+ */
+
 async function preload() {
 
      yarn.img = await loadImage("assets/images/ball.png");
@@ -22,7 +29,7 @@ async function preload() {
 }
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * sets up canvas
 */
 async function setup() {
     createCanvas(1080, 1080)
@@ -34,6 +41,9 @@ async function setup() {
 
 }
 
+/**
+ * resets the yarn ball position
+ */
 function resetYarn(){
     yarn.x = random(yarn.size/2, width - yarn.size/2)
     yarn.y = random(yarn.size/2, height - yarn.size/2)
@@ -42,7 +52,7 @@ function resetYarn(){
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * displays the yarn ball
 */
 function draw() {
     background(255);
@@ -50,7 +60,13 @@ function draw() {
 
 }
 
+/**
+ * when the mouse is clicked, the ball changes locations
+ */
 function mousePressed(){
+    /**
+     * detects when the cursor overlaps with the yarn ball
+     */
     const d = dist(mouseX, mouseY, yarn.x, yarn.y);
     const clicked = (d < yarn.size/2)
     if(clicked) {

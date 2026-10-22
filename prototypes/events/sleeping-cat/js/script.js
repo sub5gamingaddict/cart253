@@ -12,6 +12,9 @@ let angryCat;
 let angry = false;
 let wakeUpTime = 0;
 
+/**
+ * loads up required assets
+ */
 async function preload() {
 
      sleepingCat = await loadImage("assets/images/sleepingcat.jpg");
@@ -31,7 +34,7 @@ async function setup() {
 
 
 /**
- * adds sleeping cat image
+ * adds sleeping and angry cat images
 */
 function draw() {
 
@@ -43,7 +46,9 @@ function draw() {
     else{
         image(sleepingCat, 540, 540, 1080, 1080);
     }
-
+/**
+ * if the cat is awake for 10 seconds, the cat goes back to sleep
+ */
     if (angry) {
         if (millis() - wakeUpTime > 10000)
             angry = false;
@@ -51,6 +56,9 @@ function draw() {
 
 }
 
+/**
+ * pressing the mouse makes the angry image appear
+ */
 function mousePressed() {
     angry = true;
     wakeUpTime = millis();
