@@ -11,6 +11,7 @@
 let sleepingCat;
 let angryCat;
 let angry = false;
+let wakeUpTime = 0;
 
 async function preload() {
 
@@ -42,6 +43,11 @@ function draw() {
     }
     else{
         image(sleepingCat, 540, 540, 1080, 1080);
+    }
+
+    if (angry) {
+        if (millis() - wakeUpTime > 10000)
+            angry = false;
     }
 
 }
