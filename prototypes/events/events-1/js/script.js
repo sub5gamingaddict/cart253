@@ -8,19 +8,28 @@
 
 "use strict";
 
+let sleepingCat;
+
+async function preload() {
+
+     sleepingCat = await loadImage("assets/images/sleepingcat.png");
+}
+
 /**
  * sets up canvas
 */
-function setup() {
+async function setup() {
 
-    createCanvas(1080, 1080)
+    createCanvas(1080, 1080);
+    await preload();
 
 }
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * adds sleeping cat image
 */
 function draw() {
+    
 
 }
