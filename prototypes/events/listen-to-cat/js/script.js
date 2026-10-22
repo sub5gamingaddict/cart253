@@ -27,7 +27,17 @@ async function setup() {
     imageMode(CENTER);
     await preload();
 
+  document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    lose();
+  }
+});
 
+}
+
+
+function lose(){
+    scary = true;
 }
 
 function draw(){
