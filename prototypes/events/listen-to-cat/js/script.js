@@ -49,5 +49,13 @@ function draw(){
     }
     else{
         image(cuteCat, 540, 540, 1080, 1080);
+
+
+    textAlign(CENTER, CENTER);
+    textSize(64);
+    fill(255);
+    noStroke();
+    text("don't leave me.", 540, 100,);
     }
+
 }
