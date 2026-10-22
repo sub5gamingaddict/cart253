@@ -90,3 +90,27 @@ This website was made with the purpose of showcase my prototyping work in this c
 </p>
 
 [code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/GET-AWAY-FROM-ME)
+
+[sleeping-cat](https://sub5gamingaddict.github.io/cart253/prototypes/events/sleeping-cat)
+
+<p align="center">
+  <img src="images/sleepingcat.png" alt="sleepingcat">
+</p>
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/events/sleeping-cat)
+
+[listen-to-cat](https://sub5gamingaddict.github.io/cart253/prototypes/events/listen-to-cat)
+
+<p align="center">
+  <img src="images/cutecat.png" alt="listentocat">
+</p>
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/events/listen-to-cat)
+
+[collect-the-balls](https://sub5gamingaddict.github.io/cart253/prototypes/events/collect-the-balls)
+
+<p align="center">
+  <img src="images/yarn.png" alt="collecttheballs">
+</p>
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/events/collect-the-balls)
