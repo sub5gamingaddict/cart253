@@ -144,7 +144,7 @@ please regrade my previous assignement, it was a missunderstanding, my links wer
 
 <div class="images">
     <img src="images/sleepingcat.png" alt="sleepingcat">
-    <img src="images/cute.png" alt="cutecat">
+    <img src="images/cutecat.png" alt="cutecat">
     <img src="images/yarn.png" alt="yarn">
 </div>
 
