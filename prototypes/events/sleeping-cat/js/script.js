@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * don't wake up the cat.
+ * Wassim Naim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * cat is sleeping, do not disturb. if you disturb, cat angry.
  */
 
 "use strict";

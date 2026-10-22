@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Don't leave
+ * Wassim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * just do what the cat says. (or don't ;D)
  */
 
 "use strict";

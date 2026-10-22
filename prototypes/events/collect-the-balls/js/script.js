@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Collect the balls.
+ * Wassim Naim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * cats like yarn...well that's atleast what i see in cartoons...i dont have a cat so idk.
  */
 
 "use strict";
