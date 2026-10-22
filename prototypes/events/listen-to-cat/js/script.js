@@ -17,6 +17,13 @@ function setup() {
 
 }
 
+async function preload() {
+
+     cuteCat = await loadImage("assets/images/cutecat.jpg");
+     scaryCat = await loadImage("assets/images/scarycat.jpg")
+}
+
+
 
 /**
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
@@ -24,5 +31,10 @@ function setup() {
 function draw() {
 
     background(0)
+
+}
+
+function cat() {
+
 
 }
