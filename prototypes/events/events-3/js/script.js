@@ -13,6 +13,8 @@
 */
 function setup() {
     createCanvas(1080, 1080)
+    imageMode(CENTER);
+    cursor("assets/images/cat2.png", 20, 20);
 
 }
 
@@ -21,5 +23,6 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+    background(0)
 
 }
