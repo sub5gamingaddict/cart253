@@ -45,7 +45,7 @@ function resetYarn(){
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-    background(0);
+    background(255);
     image(yarn.img, yarn.x, yarn.y, yarn.size, yarn.size);
 
 }
