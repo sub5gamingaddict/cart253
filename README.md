@@ -48,35 +48,40 @@ This website was made with the purpose of showcase my prototyping work in this c
 <p align="center">
   <img src="images/clock.png" alt="Clock">
 </p>
-[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/clock)
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/clock)
 
 [Sunrise](https://sub5gamingaddict.github.io/cart253/prototypes/variables/sunrise/)
 
 <p align="center">
   <img src="images/sunrise.png" alt="Sunrise">
 </p>
-[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/sunrise)
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/sunrise)
 
 [Shape Randomizer](https://sub5gamingaddict.github.io/cart253/prototypes/variables/randomizer/)
 
 <p align="center">
   <img src="images/randomizer.png" alt="Shape Randomizer">
 </p>
-[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/randomizer)
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/variables/randomizer)
 
 [Black Box](https://sub5gamingaddict.github.io/cart253/prototypes/conditionals/keyblade-gacha)
 
 <p align="center">
   <img src="images/blackbox.png" alt="blackbox">
 </p>
-[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/keyblade-gacha)
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/keyblade-gacha)
 
 [Snow](https://sub5gamingaddict.github.io/cart253/prototypes/conditionals/snow)
 
 <p align="center">
   <img src="images/snow.png" alt="snow">
 </p>
-[source code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/snow)
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/conditionals/snow)
 
 [Rarity](https://sub5gamingaddict.github.io/cart253/prototypes/conditionals/GET-AWAY-FROM-ME)
 
