@@ -8,7 +8,10 @@
 
 "use strict";
 
-
+let loaded = {};
+let current = null;
+let buffer = "";
+let lastKeyTime = 0;
 const AFK = 600;
 
 const members = {
@@ -42,5 +45,8 @@ function setup() {
 function draw() {
     background(0)
     if (current) image(current.img, width / 2, height / 2);
+    if (buffer && millis() - lastKeyTime > AFK)
+        trigger(buffer);
+    buffer ="";
 
 }
