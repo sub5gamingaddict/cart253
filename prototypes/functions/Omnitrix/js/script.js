@@ -8,6 +8,24 @@
 
 "use strict";
 
+let omnitrix;
+let alien;
+
+/**
+ * aliens variable.
+ */
+let diamondhead;
+let fourarms;
+let xlr8;
+let alienx;
+let humungousaur;
+let ghostfreak;
+let echo;
+let heatblast;
+
+async function preload() {
+    omnitrix = await loadImage("assets/images/omnitrix.png")
+}
 /**
  * sets up canvas
 */
