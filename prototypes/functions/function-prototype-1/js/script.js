@@ -17,16 +17,16 @@ const AFK = 600;
 const members = {
     "1": { img: "assets/images/Xemnas.png", snd: "assets/sounds/Xemnas.mp3" },
     "2": { img: "assets/images/Xigbar.png", snd: "assets/sounds/Xigbar.mp3" },
-    "3": { img: "assets/images/Xaldin.png", snd: "assets/sounds/Xaldin.mp3" },
+    "3": { img: "assets/images/Xaldin.png", snd: "assets/sounds/Xaldin2.mp3" },
     
     
 }
 
 function preload() {
-    for (let code in entries) {
+    for (let code in members) {
         loaded[code] = {
-            img: LoadImage(members[code].img),
-            snd: LoadImage(members[code].snd),
+            img: loadImage(members[code].img),
+            snd: loadSound(members[code].snd),
         }
     }
 }
@@ -44,9 +44,25 @@ function setup() {
 */
 function draw() {
     background(0)
-    if (current) image(current.img, width / 2, height / 2);
-    if (buffer && millis() - lastKeyTime > AFK)
+    if (current) image(current.img, width / 2, height / 2, 800, 800);
+    if (buffer && millis() - lastKeyTime > AFK) {
         trigger(buffer);
     buffer ="";
+    }
 
+}
+
+function keyTyped() {
+    if (key >= "0" && key <= "9") {
+        buffer += key;
+        lastKeyTime = millis();
+    }
+}
+
+function trigger(code) {
+    const entry = loaded[code]
+    if (!entry) return;
+    if (current && current.snd.isPlaying()) current.snd.stop();
+    current = entry;
+    current.snd.play();
 }
