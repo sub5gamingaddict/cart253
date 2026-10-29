@@ -12,19 +12,25 @@ let scaryCat;
 let scary = false;
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * loads required assets
 */
 async function preload() {
 
      cuteCat = await loadImage("assets/images/cutecat.jpg");
      scaryCat = await loadImage("assets/images/scarycat.jpg")
 }
-
+/**
+ * sets up canvas
+ */
 async function setup() {
     
     createCanvas(1080, 1080)
     imageMode(CENTER);
     await preload();
+
+/**
+ * detects if you leave the tab
+*/
 
   document.addEventListener("visibilitychange", () => {
   if (document.hidden) {
@@ -39,6 +45,9 @@ function lose(){
     scary = true;
 }
 
+/**
+ * displays both images
+ */
 function draw(){
 
     background(0)
@@ -49,7 +58,9 @@ function draw(){
     else{
         image(cuteCat, 540, 540, 1080, 1080);
 
-
+/**
+ * adds text to cute cat image
+ */
     textAlign(CENTER, CENTER);
     textSize(64);
     fill(255);
