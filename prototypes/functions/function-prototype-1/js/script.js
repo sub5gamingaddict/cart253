@@ -8,18 +8,23 @@
 
 "use strict";
 
+const members {
+    "1": { img: "assets/images/Xemnas.png", snd: "assets/sounds/Xemnas.mp3" },
+}
+
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * sets up canvas.
 */
 function setup() {
     createCanvas(800, 800)
 
 }
 
-
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * added background color.
 */
 function draw() {
+
+    background(0)
 
 }
