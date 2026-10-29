@@ -24,7 +24,16 @@ let echo;
 let heatblast;
 
 async function preload() {
-    omnitrix = await loadImage("assets/images/omnitrix.png")
+    omnitrix = await loadImage("assets/images/omnitrix.png");
+    diamondhead = await loadImage("assets/images/diamondhead.webp");
+    echo = await loadImage("assets/images/echo.webp");
+    fourarms = await loadImage("assets/images/four_arms.webp");
+    ghostfreak = await loadImage("assets/images/ghostfreak.png");
+    humungousaur = await loadImage("assets/images/humungousaur.webp");
+    xlr8 = await loadImage("assets/images/xlr8.webp");
+    alienx = await loadImage("assets/images/alien_x.webp");
+}
+/**
 }
 /**
  * sets up canvas
