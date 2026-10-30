@@ -40,9 +40,16 @@ async function preload() {
 async function setup() {
     createCanvas(800, 800)
     await preload();
+
+    if (!intro) return;
+
+    if(alien) {
+        image(alien, 150, 50, 500, 500)
+    }
+    else {
+        image(intro, 150, 50, 500, 500)
+    }
 }
-
-
 /**
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
@@ -51,4 +58,8 @@ function draw() {
 
 }
 
-function mousePressed() {}
+function mousePressed() {
+    if (!alien){
+     alien = pull();
+    }
+}
