@@ -15,7 +15,7 @@ let lastKeyTime = 0;
 const AFK = 600;
 
 const members = {
-    "1": { img: "assets/images/Xemnas.png", snd: "assets/sounds/Xemnas.mp3" },
+    "1": { img: "assets/images/Xemnas.png", snd: "assets/sounds/xemnas.mp3" },
     "2": { img: "assets/images/Xigbar.png", snd: "assets/sounds/Xigbar.mp3" },
     "3": { img: "assets/images/Xaldin.png", snd: "assets/sounds/Xaldin2.mp3" },
     

@@ -23,7 +23,9 @@ let ghostfreak;
 let echo;
 let heatblast;
 
-
+/**
+ * loads alien images and transformation sound.
+*/
 async function preload() {
     intro = await loadImage("assets/images/intro.png");
     diamondhead = await loadImage("assets/images/diamondhead1.png");
