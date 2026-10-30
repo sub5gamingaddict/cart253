@@ -63,3 +63,37 @@ function mousePressed() {
      alien = pull();
     }
 }
+
+function pull() {
+const p = random();
+
+if (p < 0.01) {
+    return alienx;
+}
+
+else if (p < 0.10) {
+    return ghostfreak
+    
+}
+
+else if (p < 0.15) {
+    return xlr8
+    
+}
+
+else if (p < 0.20) {
+    return heatblast
+    
+}
+
+else if (p < 0.30) {
+    return echo
+    
+}
+
+else if (p < 0.40) {
+    return fourarms
+    
+}
+
+}
