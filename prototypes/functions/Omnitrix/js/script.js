@@ -10,6 +10,7 @@
 
 let intro;
 let alien;
+let transformationsnd;
 
 /**
  * aliens variable.
@@ -34,6 +35,8 @@ async function preload() {
     xlr8 = await loadImage("assets/images/xlr8.webp");
     alienx = await loadImage("assets/images/alien_x.webp");
    heatblast = await loadImage("assets/images/heatblast.webp");
+   transformationsnd = await loadSound("assets/sounds/transformation.mp3");
+
 }
 /**
  * sets up canvas
@@ -62,6 +65,7 @@ function draw() {
 function mousePressed() {
     if (!alien){
      alien = pull();
+     transformationsnd.play();
     }
 }
 
