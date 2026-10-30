@@ -2,7 +2,7 @@
 
 Wassim Naim
 
-[View this project online](sub5gamingaddict.github.io/cart253/prototypes/functions/Omnitrix)
+[View this project online](https://sub5gamingaddict.github.io/cart253/prototypes/functions/Omnitrix)
 
 ## Description
 A velgax battle simulator. But more difficult.
