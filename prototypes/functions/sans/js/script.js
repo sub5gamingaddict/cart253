@@ -9,9 +9,11 @@
 "use strict";
 
 let sansImg;
+let sansSnd;
 
 async function preload() {
     sansImg = loadImage("assets/images/sans.png");
+    sansSnd = loadSound("assets/sounds/sans.mp3");
 }
 
 /**
@@ -19,6 +21,7 @@ async function preload() {
 */
 async function setup() {
     createCanvas(800, 800);
+    await preload();
 
     background(0);
 }
