@@ -34,13 +34,11 @@ async function preload() {
     alienx = await loadImage("assets/images/alien_x.webp");
 }
 /**
-}
-/**
  * sets up canvas
 */
-function setup() {
+async function setup() {
     createCanvas(800, 800)
-
+    await preload();
 }
 
 
@@ -48,5 +46,15 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+    background(255);
+
+    if(!omnitrix) return;
+
+    if (alien) {
+        image(alien, 150, 50, 500, 500);
+    }
+    else{
+        image(omnitrix, 150, 50, 500, 500);
+    }
 
 }
