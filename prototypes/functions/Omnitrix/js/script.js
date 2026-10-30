@@ -27,14 +27,14 @@ let heatblast;
 
 async function preload() {
     intro = await loadImage("assets/images/intro.png");
-    diamondhead = await loadImage("assets/images/diamondhead.webp");
-    echo = await loadImage("assets/images/echo.webp");
-    fourarms = await loadImage("assets/images/four_arms.webp");
-    ghostfreak = await loadImage("assets/images/ghostfreak.png");
-    humungousaur = await loadImage("assets/images/humungousaur.webp");
-    xlr8 = await loadImage("assets/images/xlr8.webp");
-    alienx = await loadImage("assets/images/alien_x.webp");
-   heatblast = await loadImage("assets/images/heatblast.webp");
+    diamondhead = await loadImage("assets/images/diamondhead1.png");
+    echo = await loadImage("assets/images/echo1.png");
+    fourarms = await loadImage("assets/images/fourarms1.png");
+    ghostfreak = await loadImage("assets/images/ghostfreak1.png");
+    humungousaur = await loadImage("assets/images/humungousaur1.png");
+    xlr8 = await loadImage("assets/images/xlr81.png");
+    alienx = await loadImage("assets/images/alienx1.png");
+   heatblast = await loadImage("assets/images/heatblast1.png");
    transformationsnd = await loadSound("assets/sounds/transformation.mp3");
 
 }
@@ -46,7 +46,7 @@ async function setup() {
     await preload();
 }
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * draws aliens.
 */
 function draw() {
     background(255);
@@ -62,6 +62,10 @@ function draw() {
 
 }
 
+/**
+ * pulls alien when the mouse is pressed.
+ * plays transformation sound when mouse is pressed
+*/
 function mousePressed() {
     if (!alien){
      alien = pull();
@@ -69,6 +73,9 @@ function mousePressed() {
     }
 }
 
+/**
+ * displays odds for every single alien.
+*/
 function pull() {
 const p = random();
 
