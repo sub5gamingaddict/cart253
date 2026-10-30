@@ -33,6 +33,7 @@ async function preload() {
     humungousaur = await loadImage("assets/images/humungousaur.webp");
     xlr8 = await loadImage("assets/images/xlr8.webp");
     alienx = await loadImage("assets/images/alien_x.webp");
+   heatblast = await loadImage("assets/images/heatblast.webp");
 }
 /**
  * sets up canvas
@@ -40,8 +41,14 @@ async function preload() {
 async function setup() {
     createCanvas(800, 800)
     await preload();
+}
+/**
+ * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+*/
+function draw() {
+    background(255);
 
-    if (!intro) return;
+     if (!intro) return;
 
     if(alien) {
         image(alien, 150, 50, 500, 500)
@@ -49,12 +56,6 @@ async function setup() {
     else {
         image(intro, 150, 50, 500, 500)
     }
-}
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
-function draw() {
-    background(255);
 
 }
 
@@ -94,6 +95,14 @@ else if (p < 0.30) {
 else if (p < 0.40) {
     return fourarms
     
+}
+
+else if (p < 0.50) {
+    return diamondhead
+}
+
+else {
+    return humungousaur
 }
 
 }
