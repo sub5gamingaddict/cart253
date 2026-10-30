@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Unwinnable fight
+ * Wassim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * you're in a fight against Velgax, and your chances of winning are close to none.
  */
 
 "use strict";
