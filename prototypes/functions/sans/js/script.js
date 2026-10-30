@@ -39,6 +39,7 @@ function draw() {
 */
 function mousePressed() {
     sans(mouseX, mouseY);
+    sansSnd.play();
 }
 
 function sans(x, y) {
