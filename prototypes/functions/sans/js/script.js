@@ -10,10 +10,11 @@
 
 let sansImg;
 let sansSnd;
+let sansSize = 160;
 
 async function preload() {
-    sansImg = loadImage("assets/images/sans.png");
-    sansSnd = loadSound("assets/sounds/sans.mp3");
+    sansImg = await loadImage("assets/images/sans.png");
+    sansSnd = await loadSound("assets/sounds/sans.mp3");
 }
 
 /**
@@ -40,11 +41,12 @@ function draw() {
 function mousePressed() {
     sans(mouseX, mouseY);
     sansSnd.play();
+    sansSize += 20;
 }
 
 function sans(x, y) {
     push();
     imageMode(CENTER);
-    image(sansImg, x, y, 160, 160);
+    image(sansImg, x, y, sansSize, sansSize);
     pop();
 }
