@@ -8,7 +8,7 @@
 
 "use strict";
 
-let omnitrix;
+let intro;
 let alien;
 
 /**
@@ -23,8 +23,9 @@ let ghostfreak;
 let echo;
 let heatblast;
 
+
 async function preload() {
-    omnitrix = await loadImage("assets/images/omnitrix.png");
+    intro = await loadImage("assets/images/intro.png");
     diamondhead = await loadImage("assets/images/diamondhead.webp");
     echo = await loadImage("assets/images/echo.webp");
     fourarms = await loadImage("assets/images/four_arms.webp");
@@ -48,13 +49,6 @@ async function setup() {
 function draw() {
     background(255);
 
-    if(!omnitrix) return;
-
-    if (alien) {
-        image(alien, 150, 50, 500, 500);
-    }
-    else{
-        image(omnitrix, 150, 50, 500, 500);
-    }
-
 }
+
+function mousePressed() {}
