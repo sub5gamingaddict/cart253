@@ -8,6 +8,12 @@
 
 "use strict";
 
+let sans;
+
+function preload() {
+    sans = loadImage("assets/images/sans.png");
+}
+
 /**
  * sets up canvas.
 */
@@ -25,3 +31,11 @@ function setup() {
 function draw() {
 
 }
+
+/**
+ * sans appears when the user clicks.
+*/
+function mousePressed() {
+    sans(mouseX, mouseY);
+}
+
