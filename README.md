@@ -115,27 +115,27 @@ This website was made with the purpose of showcase my prototyping work in this c
 
 [code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/events/collect-the-balls)
 
-[XIII](https://sub5gamingaddict.github.io/cart253/prototypes/events/XIII)
+[XIII](https://sub5gamingaddict.github.io/cart253/prototypes/functions/XIII)
 
 <p align="center">
   <img src="images/yarn.png" alt="collecttheballs">
 </p>
 
-[code](https://github.com/sub5gamingaddict/cart253/tree/main/XIII)
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/XIII)
 
-[Sans](https://sub5gamingaddict.github.io/cart253/prototypes/events/sans)
-
-<p align="center">
-  <img src="images/yarn.png" alt="collecttheballs">
-</p>
-
-[code](https://github.com/sub5gamingaddict/cart253/tree/main/sans)
-
-[Omnitrix](https://sub5gamingaddict.github.io/cart253/prototypes/events/Omnitrix)
+[Sans](https://sub5gamingaddict.github.io/cart253/prototypes/functions/sans)
 
 <p align="center">
   <img src="images/yarn.png" alt="collecttheballs">
 </p>
 
-[code](https://github.com/sub5gamingaddict/cart253/tree/main/Omnitrix)
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/sans)
+
+[Omnitrix](https://sub5gamingaddict.github.io/cart253/prototypes/functions/Omnitrix)
+
+<p align="center">
+  <img src="images/yarn.png" alt="collecttheballs">
+</p>
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/Omnitrix)
 
