@@ -8,20 +8,19 @@
 
 "use strict";
 
-let sans;
+let sansImg;
 
-function preload() {
-    sans = loadImage("assets/images/sans.png");
+async function preload() {
+    sansImg = loadImage("assets/images/sans.png");
 }
 
 /**
  * sets up canvas.
 */
-function setup() {
+async function setup() {
     createCanvas(800, 800);
 
     background(0);
-
 }
 
 
@@ -39,3 +38,9 @@ function mousePressed() {
     sans(mouseX, mouseY);
 }
 
+function sans(x, y) {
+    push();
+    imageMode(CENTER);
+    image(sansImg, x, y, 160, 160);
+    pop();
+}
