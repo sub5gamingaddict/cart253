@@ -175,7 +175,7 @@ Okay this day was pretty good, i'm actually writing all of the things that you r
 for the next prototype, it was heavily inspired by Pippin's stamp program. the concept was simple, every single time you click on the canvas, sans appears. Things looked  pretty simple so i decided to make sans grow bigger the more you clicked on the canvas. i also added his iconic text sound effect to make things more interesting.
 
 <p align="center">
-  <img src="images/sans.png" alt="sans">
+  <img src="images/hugesans.png" alt="sans">
 </p>
 
 anyways i had fun making these prototypes (even tho this week wasnt the best)
