@@ -148,4 +148,35 @@ please regrade my previous assignement, it was a missunderstanding, my links wer
     <img src="images/yarn.png" alt="yarn">
 </div>
 
+## october 28 2026
+So on this day, i was only able to think of my first idea. i love kingdom hearts, so i decided to make an organization XIII prototype. It only has three of the members right now but i'll try to find the others (i need to find they're voice lines). anyways i started the prototype but i didn't get anything significant done mainly because my anxiety kicked in. DO NOT WORRY everything is fine, it's just my brain doing brain stuff.
 
+## october 29 2026
+I went back to finish my prototype at arround 9 am, the goal was to do as much as possible before 1:15, but i was only able to get one prototype done.
+i was able to add three of the members, and made it so when you type their number "1, 2 or 3" they appear.
+
+<div class="images">
+    <img src="images/13.png" alt="xemnas">
+    <img src="images/xigbar.png" alt="xigbar">
+    <img src="images/xaldin.png" alt="xaldin">
+</div>
+
+ I tried to add all the other members but that caused the whole program to break, this was due to the fact that i was missing some audio files for some of the members. so i decided to remove them, but i do plan to add them eventually.
+after i finished the class, i told Pipin that i was gonna finish all the prototypes before the deadline...that didnt happen. BUT I COULDNT HELP IT, my anxiety episode started to kick in again and i was unable to do ANYTHING. matter of fact i had to go outside and visit my family so i would feel better. so yeah no prototypes were done that day :D.
+
+## october 30 2026
+Okay this day was pretty good, i'm actually writing all of the things that you read on this day. Apparently, visiting my family was just what i needed, so that's good. i started with my second prototype, which was an omnitrix...well, it was more like a velgax battle simulator. every single time you  click on the omnitrix, you transform to an alien, but most of them lose to velgax, because i made it like that. the only one who wins against him is alien X because he's cool. fun fact, the text that is displayed isnt programmed, i edited the images and added text to them, mainly because that's the way that i was comfortable with,and also because i wanted to avoid coding it :p.
+
+<p align="center">
+  <img src="images/echo.png" alt="echo">
+</p>
+
+
+for the next prototype, it was heavily inspired by Pippin's stamp program. the concept was simple, every single time you click on the canvas, sans appears. Things looked  pretty simple so i decided to make sans grow bigger the more you clicked on the canvas. i also added his iconic text sound effect to make things more interesting.
+
+<p align="center">
+  <img src="images/sans.png" alt="sans">
+</p>
+
+anyways i had fun making these prototypes (even tho this week wasnt the best)
+and i appologize once again for the late submission, i know that you told us to notify you if we were gonna submit late, but as you can see, everything that happened was unnexpected.

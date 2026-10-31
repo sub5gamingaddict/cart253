@@ -126,7 +126,7 @@ This website was made with the purpose of showcase my prototyping work in this c
 [Sans](https://sub5gamingaddict.github.io/cart253/prototypes/functions/sans)
 
 <p align="center">
-  <img src="images/skelton.png" alt="collecttheballs">
+  <img src="images/skeleton.png" alt="sans">
 </p>
 
 [code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/sans)
@@ -134,7 +134,7 @@ This website was made with the purpose of showcase my prototyping work in this c
 [Omnitrix](https://sub5gamingaddict.github.io/cart253/prototypes/functions/Omnitrix)
 
 <p align="center">
-  <img src="images/omnitrix.png" alt="collecttheballs">
+  <img src="images/omnitrix.png" alt="omnitrix">
 </p>
 
 [code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/Omnitrix)
