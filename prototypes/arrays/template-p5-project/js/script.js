@@ -43,3 +43,11 @@ function setup() {
 function draw() {
 
 }
+
+function showDialog(){
+   push();
+   fill();
+   textSize(18);
+   text(speech[speechIndex], speechbubble.x + speechbubble.padding, speechbubble.y + speechbubble.padding, speechbubble.width - 2 * speechbubble.padding, speechbubble.height - 2 * speechbubble.padding);
+   pop();
+}
