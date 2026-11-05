@@ -20,17 +20,16 @@ const speech = [
 let speechIndex = 0;
 
 let speechbubble = {
-    x: 50,
-    y: 300,
+    x: 200,
+    y: 665,
     width: 300,
     height: 80,
     padding: 20,
-    fontSize: 18
+    fontSize: 27
 }
-
-async function preload() {
+function preload() {
     for (const part of speech) {
-        part.image = await loadImage(part.imagePath);
+        part.image = loadImage(part.imagePath);
     }
 }
 /**
@@ -49,16 +48,16 @@ function draw() {
     const current = speech[speechIndex];
 
     image(current.image, 0, 0, width, height);
-   showDialog();
+   showDialog(current.text);
 }
 
-function showDialog(){
+function showDialog(speech){
    push();
-   fill();
-   textSize(18);
-   text(speech[speechIndex], speechbubble.x + speechbubble.padding, speechbubble.y + speechbubble.padding, speechbubble.width - 2 * speechbubble.padding, speechbubble.height - 2 * speechbubble.padding);
+   fill(255);
+   textSize(speechbubble.fontSize);
+   text(speech, speechbubble.x + speechbubble.padding, speechbubble.y + speechbubble.padding, speechbubble.width - 2 * speechbubble.padding);
    pop();
-}
+}    
 
 function mousePressed() {
     if (speechIndex < speech.length - 1){
