@@ -24,3 +24,11 @@ function draw() {
     background("#21263b")
 
 }
+
+function drawRain(rain) {
+    push();
+    fill(rain.fill);
+    noStroke();
+    ellipse(rain.x, rain.y, rain.size);
+    pop();
+}
