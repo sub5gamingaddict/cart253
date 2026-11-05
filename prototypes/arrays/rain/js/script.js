@@ -8,11 +8,29 @@
 
 "use strict";
 
+const raindrops = []
+
+function createRain() {
+    return {
+        x: random(0, 600),
+        y: 0,
+        size: random(7, 20),
+        velocity:{
+            x:0,
+            y: random(2, 3)
+        },
+        fill: "#ffffff"
+    }
+}
+
 /**
  * creates canvas.
 */
 function setup() {
     createCanvas(800, 800)
+
+    drawRain(rain);
+    moveRain(rain);
 
 }
 
@@ -23,6 +41,11 @@ function setup() {
 function draw() {
     background("#21263b")
 
+}
+
+function moveRain(rain) {
+    rain.x += rain.velocity.x;
+    rain.y += rain.velocity.y;
 }
 
 function drawRain(rain) {
