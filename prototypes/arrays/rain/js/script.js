@@ -51,7 +51,7 @@ function draw() {
         raindrops.push(createRain()); 
 
 /**
- * draws more drops
+ * loop that draws every drop
 */
     for (let i = raindrops.length - 1; i>= 0; i--) {
         
