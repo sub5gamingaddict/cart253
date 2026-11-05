@@ -1,15 +1,20 @@
 /**
- * Title of Project
- * Author Name
+ * Rain
+ * Wassim Naim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * It's raining!.....that's all.
  */
 
 "use strict";
 
+/**
+ * array for rain.
+*/
 const raindrops = []
 
+/**
+ * creates rain.
+*/
 function createRain() {
     return {
         x: random(0, 800),
@@ -34,14 +39,20 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * adds background color.
 */
 function draw() {
     background("#21263b")
 
+/**
+* loop that spawns 3 drops per frame
+*/
     for (let i = 0; i < 3; i++){
         raindrops.push(createRain()); 
 
+/**
+ * draws more drops
+*/
     for (let i = raindrops.length - 1; i>= 0; i--) {
         
           const rain = raindrops[i];
@@ -51,11 +62,17 @@ function draw() {
     }
 }
 
+/**
+ * rain movement
+*/
 function moveRain(rain) {
     rain.x += rain.velocity.x;
     rain.y += rain.velocity.y;
 }
 
+/**
+ * draws rain.
+*/
 function drawRain(rain) {
     push();
     fill(rain.fill);
