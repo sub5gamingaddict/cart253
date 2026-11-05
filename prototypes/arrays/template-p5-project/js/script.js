@@ -31,6 +31,7 @@ function preload() {
     for (const part of speech) {
         part.image = loadImage(part.imagePath);
     }
+    glassesImage = loadImage("assets/images/glasses.png")
 }
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
