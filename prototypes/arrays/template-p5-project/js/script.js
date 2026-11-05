@@ -17,6 +17,17 @@ const speech = [
     { text: "Without yout help i would've been stuck here forever.", imagePath: "assets/images/5.png"},
 ]
 
+let speechIndex = 0;
+
+let speechbubble = {
+    x: 50,
+    y: 300,
+    width: 300,
+    height: 80,
+    padding: 20,
+    fontSize: 18
+}
+
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
