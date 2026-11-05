@@ -8,6 +8,15 @@
 
 "use strict";
 
+const speech = [
+    "Hey...",
+    "I've been trying to find my glasses...",
+    "Can you help me find them?",
+    "Oh!",
+    "Thank you!",
+    "Without yout help i would've been stuck here forever."  
+]
+
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
