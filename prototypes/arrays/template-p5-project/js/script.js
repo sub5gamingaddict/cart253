@@ -9,12 +9,12 @@
 "use strict";
 
 const speech = [
-    "Hey...",
-    "I've been trying to find my glasses...",
-    "Can you help me find them?",
-    "Oh!",
-    "Thank you!",
-    "Without yout help i would've been stuck here forever."  
+    { text: "Hey...", imagePath: "assets/images/1.png"},
+    { text: "I've been trying to find my glasses...", imagePath: "assets/images/2.png"},
+    { text: "Can you help me find them?", imagePath: "assets/images/3.png"},
+    { text: "Oh!", imagePath: "assets/images/4.png"},
+    { text: "Thank you!", imagePath: "assets/images/5.png"},
+    { text: "Without yout help i would've been stuck here forever.", imagePath: "assets/images/5.png"},
 ]
 
 /**
