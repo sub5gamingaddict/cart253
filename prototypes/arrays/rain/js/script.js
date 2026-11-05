@@ -12,12 +12,14 @@ const raindrops = []
 
 function createRain() {
     return {
-        x: random(0, 600),
-        y: 0,
+        x: random(0, 800),
+        y: -20,
+        width: 2,
+        height: random(10, 20),
         size: random(7, 20),
         velocity:{
             x:0,
-            y: random(2, 3)
+            y: random(8, 12)
         },
         fill: "#ffffff"
     }
@@ -28,10 +30,6 @@ function createRain() {
 */
 function setup() {
     createCanvas(800, 800)
-
-    drawRain(rain);
-    moveRain(rain);
-
 }
 
 
@@ -41,6 +39,16 @@ function setup() {
 function draw() {
     background("#21263b")
 
+    for (let i = 0; i < 3; i++){
+        raindrops.push(createRain()); 
+
+    for (let i = raindrops.length - 1; i>= 0; i--) {
+        
+          const rain = raindrops[i];
+    drawRain(rain);
+    moveRain(rain);
+    }
+    }
 }
 
 function moveRain(rain) {
@@ -52,6 +60,6 @@ function drawRain(rain) {
     push();
     fill(rain.fill);
     noStroke();
-    ellipse(rain.x, rain.y, rain.size);
+    rect(rain.x, rain.y, rain.width, rain.height);
     pop();
 }
