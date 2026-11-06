@@ -139,3 +139,28 @@ This website was made with the purpose of showcase my prototyping work in this c
 
 [code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/Omnitrix)
 
+[Rain](https://sub5gamingaddict.github.io/cart253/prototypes/arrays/rain)
+
+<p align="center">
+  <img src="images/omnitrix.png" alt="omnitrix">
+</p>
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/Omnitrix)
+
+[Glasses](https://sub5gamingaddict.github.io/cart253/prototypes/arrays/glasses)
+
+<p align="center">
+  <img src="images/omnitrix.png" alt="omnitrix">
+</p>
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/Omnitrix)
+
+[Souls](https://sub5gamingaddict.github.io/cart253/prototypes/arrays/soul)
+
+<p align="center">
+  <img src="images/omnitrix.png" alt="omnitrix">
+</p>
+
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/Omnitrix)
+
+

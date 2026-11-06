@@ -180,3 +180,34 @@ for the next prototype, it was heavily inspired by Pippin's stamp program. the c
 
 anyways i had fun making these prototypes (even tho this week wasnt the best)
 and i appologize once again for the late submission, i know that you told us to notify you if we were gonna submit late, but as you can see, everything that happened was unnexpected.
+
+## november 4 / 5 2026
+
+so, for the arrays prototypes, i was mainly thinking of images, artifacts or objects that could be duplicated, because...well you know...arrays? okay i suck at explaining.
+
+anyways, for the first prototype, i used my previous snow project as a base. I replaced the ellipse snow particles with white rectangles that represented raindrops, i was going for a "minecraft style look". after finishing that project i kind of ignored the fact that i needed to make the program remove all the rectangles that left the canvas. i thought that it wasn't necessary. well... i was wrong. Anyways remember this piece of info because we're gonna come back to it later :p.
+
+<p align="center">
+  <img src="images/rainsc.png" alt="echo">
+</p>
+
+
+for the second prototype, i used the dialogue example prototype as reference. I opened procreate and drew some sprites, and i also drew the speech bubbles. because i didnt want to draw it in code. yes i know i'm lazy. after doing that, i basically linked every single text with a sprite image, and all of the speech was put in an array. the concept was simple. a girl is looking for her glasses. luckily, YOU HAVE THEM :D! and you have to give them to her. I changed the cursor to an image of glasses but everything else was simple. all that i had to draw was the text since all the other assets were images that i have already made (drawn digitally).
+
+<p align="center">
+  <img src="images/glassessc.png" alt="echo">
+</p>
+
+
+okay now remember what i said about ignoring the fact that i needed to make sure that the rectangles were removed if they left the canvas in the rain prototype? well...ignoring them was a mistake. when i was in class, i opened my prototypes for my classmates to see. and then i realised that if i kept the rain prototype open, it gradually starts to lag until it's basically running at 5 fps. this also affected the glasses prototype because they were running at the same time. so yeah, my fault.
+anyways i already fixed the problem so everything is good now.
+
+
+for the last prototype, i decided to make it soul eater themed. i picked up a bunch of character icons. and put them inside an array. I used the trail example that was in the course study material for this one. but i didnt want my cursor to leave a trail that vanished. i wanted it to draw the icons while its moving, covering the canvas along the way. why? i dont know...i just thought that it looked nice. and colorful. anyways im not gonna explain what i did in detail. the comments are gonna do that for me (even tho i'm the one who wrote them TWT)
+
+<p align="center">
+  <img src="images/soulsc.png" alt="echo">
+</p>
+
+
+THANKS FOR READING!
