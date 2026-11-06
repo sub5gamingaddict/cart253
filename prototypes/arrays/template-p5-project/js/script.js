@@ -14,6 +14,8 @@ const circle = {
     trail: []
 }
 
+let images = [];
+
 function preload() {
     images.push(loadImage("assets/images/1.png"))
     images.push(loadImage("assets/images/2.png"))
