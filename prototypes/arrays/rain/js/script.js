@@ -8,7 +8,7 @@
 "use strict";
 
 /**
- * array for rain.
+ * array that holds the raindrops!
 */
 const raindrops = []
 
@@ -38,9 +38,6 @@ function setup() {
 }
 
 
-/**
- * adds background color.
-*/
 function draw() {
     background("#21263b")
 
@@ -71,7 +68,7 @@ function moveRain(rain) {
 }
 
 /**
- * draws rain.
+ * draws raindrops.
 */
 function drawRain(rain) {
     push();

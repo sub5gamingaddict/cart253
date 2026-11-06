@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Soul
+ * Wassim Naim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Your mouse draws a bunch of souls!
  */
 
 "use strict";
@@ -14,8 +13,14 @@ const circle = {
     trail: []
 }
 
+/**
+ * an array that holds all the images.
+*/
 let images = [];
 
+/**
+ * loads the images.
+*/
 function preload() {
     images.push(loadImage("assets/images/1.png"))
     images.push(loadImage("assets/images/2.png"))
@@ -35,6 +40,10 @@ function preload() {
 function setup() {
 
     createCanvas (800, 800)
+
+   /**
+    * removes cursor.
+   */
     noCursor();
     imageMode(CENTER);
 
@@ -42,7 +51,7 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * draws the image cursor thingy.
 */
 function draw() {
     background(0);
@@ -53,6 +62,9 @@ function draw() {
     for (let i = 0; i < circle.trail.length; i++){
         let soul = circle.trail[i];
 
+ /**
+ * draws the image on the cursor
+*/
      push();
     noStroke();
     fill(255);
@@ -61,12 +73,18 @@ function draw() {
 
     }
 
+/**
+ * adds image to the mouses current position.
+*/
     circle.trail.push({
         x: circle.x,
         y: circle.y,
         img: random(images)
     })
 
+/**
+ * removes old trail when it reachs max length
+*/
     if (circle.trail.length >= circle.maxTrailLength){
         circle.trail.shift();
     }

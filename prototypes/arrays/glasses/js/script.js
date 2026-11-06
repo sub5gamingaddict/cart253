@@ -1,13 +1,15 @@
 /**
- * Title of Project
- * Author Name
+ * Glasses
+ * Wassim Naim
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Help the girl find her glasses!
  */
 
 "use strict";
 
+/**
+ * each line of dialogue and the image that displays with it
+*/
 const speech = [
     { text: "Hey...", imagePath: "assets/images/1.png"},
     { text: "I've been trying to find my glasses...", imagePath: "assets/images/2.png"},
@@ -17,8 +19,14 @@ const speech = [
     { text: "Without yout help i would've been stuck here forever.", imagePath: "assets/images/5.png"},
 ]
 
+/**
+ * what text is playing.
+*/
 let speechIndex = 0;
 
+/**
+ * dialogue text attributes.
+*/
 let speechbubble = {
     x: 200,
     y: 665,
@@ -28,16 +36,25 @@ let speechbubble = {
     fontSize: 27
 }
 
+/**
+ * holds the glasses image.
+*/
 let glassesImage = undefined;
 
+/**
+ * loads all the images.
+*/
 function preload() {
+/**
+ * goes through every text and displays it's image
+*/
     for (const part of speech) {
         part.image = loadImage(part.imagePath);
     }
     glassesImage = loadImage("assets/images/glasses.png")
 }
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * sets up canvas
 */
 function setup() {
     createCanvas (800, 800)
@@ -47,7 +64,7 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * draws the text, image and the glasses cursor.
 */
 function draw() {
     const current = speech[speechIndex];
@@ -58,6 +75,9 @@ function draw() {
    image(glassesImage, mouseX, mouseY, 60, 30);
 }
 
+/**
+ * draws the text
+*/
 function showDialog(speech){
    push();
    fill(255);
@@ -66,6 +86,9 @@ function showDialog(speech){
    pop();
 }    
 
+/**
+ * goes from dialogue to dialogue when the mouse is clicked.
+*/
 function mousePressed() {
     if (speechIndex < speech.length - 1){
         speechIndex++;
