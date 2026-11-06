@@ -9,7 +9,7 @@
 "use strict";
 
 const circle = {
-    diameter: 20,
+    size: 80,
     maxTrailLenght: 100,
     trail: []
 }
@@ -25,6 +25,7 @@ function preload() {
     images.push(loadImage("assets/images/6.png"))
     images.push(loadImage("assets/images/7.png"))
     images.push(loadImage("assets/images/8.png"))
+    images.push(loadImage("assets/images/9.png"))
 
 }
 
@@ -49,10 +50,24 @@ function draw() {
     circle.x = mouseX;
     circle.y = mouseY;
 
-    push();
+    for (let i = 0; i < circle.trail.length; i++){
+        let soul = circle.trail[i];
+
+     push();
     noStroke();
     fill(255);
-    ellipse(circle.x, circle.y, circle.diameter);
+    image(soul.img, soul.x, soul.y, circle.size, circle.size);
     pop();
 
+    }
+
+    circle.trail.push({
+        x: circle.x,
+        y: circle.y,
+        img: random(images)
+    })
+
+    if (circle.trail.length >= circle.maxTrailLength){
+        circle.trail.shift();
+    }
 }
