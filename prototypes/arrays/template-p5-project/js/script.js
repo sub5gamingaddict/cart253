@@ -8,6 +8,18 @@
 
 "use strict";
 
+function preload() {
+    images.push(loadImage("assets/images/1.png"))
+    images.push(loadImage("assets/images/2.png"))
+    images.push(loadImage("assets/images/3.png"))
+    images.push(loadImage("assets/images/4.png"))
+    images.push(loadImage("assets/images/5.png"))
+    images.push(loadImage("assets/images/6.png"))
+    images.push(loadImage("assets/images/7.png"))
+    images.push(loadImage("assets/images/8.png"))
+
+}
+
 /**
  * creates canvas.
 */
