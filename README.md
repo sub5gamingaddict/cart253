@@ -142,25 +142,25 @@ This website was made with the purpose of showcase my prototyping work in this c
 [Rain](https://sub5gamingaddict.github.io/cart253/prototypes/arrays/rain)
 
 <p align="center">
-  <img src="images/omnitrix.png" alt="omnitrix">
+  <img src="images/rainsc.png" alt="rain">
 </p>
 
-[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/Omnitrix)
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/arrays/rain)
 
 [Glasses](https://sub5gamingaddict.github.io/cart253/prototypes/arrays/glasses)
 
 <p align="center">
-  <img src="images/omnitrix.png" alt="omnitrix">
+  <img src="images/glasses.png" alt="glasses">
 </p>
 
-[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/Omnitrix)
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/arrays/glasses)
 
 [Souls](https://sub5gamingaddict.github.io/cart253/prototypes/arrays/soul)
 
 <p align="center">
-  <img src="images/omnitrix.png" alt="omnitrix">
+  <img src="images/soul.png" alt="souls">
 </p>
 
-[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/functions/Omnitrix)
+[code](https://github.com/sub5gamingaddict/cart253/tree/main/prototypes/arrays/soul)
 
 
