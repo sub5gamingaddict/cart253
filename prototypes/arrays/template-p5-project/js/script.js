@@ -8,6 +8,12 @@
 
 "use strict";
 
+const circle = {
+    diameter: 20,
+    maxTrailLenght: 100,
+    trail: []
+}
+
 function preload() {
     images.push(loadImage("assets/images/1.png"))
     images.push(loadImage("assets/images/2.png"))
@@ -37,5 +43,14 @@ function setup() {
 */
 function draw() {
     background(0);
+
+    circle.x = mouseX;
+    circle.y = mouseY;
+
+    push();
+    noStroke();
+    fill(255);
+    ellipse(circle.x, circle.y, circle.diameter);
+    pop();
 
 }
