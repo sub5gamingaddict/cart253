@@ -55,6 +55,13 @@ function draw() {
           const rain = raindrops[i];
     drawRain(rain);
     moveRain(rain);
+
+/**
+ * removes drops that leave the canvas.
+*/
+    if (rain.y > height) {
+        raindrops.splice(i, 1);
+    }
     }
     }
 }
