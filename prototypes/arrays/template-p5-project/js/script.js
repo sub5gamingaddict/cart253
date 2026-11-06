@@ -26,6 +26,8 @@ function preload() {
 function setup() {
 
     createCanvas (800, 800)
+    noCursor();
+    imageMode(CENTER);
 
 }
 
