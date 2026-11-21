@@ -8,18 +8,30 @@
 
 "use strict";
 
+let myFont;
+
 /**
  * sets up canvas
 */
-function setup() {
+async function setup() {
     createCanvas(1080, 1080)
+    myFont = await loadFont("fonts/baltime.ttf")
+    textFont(myFont);
+    textAlign(CENTER, CENTER)
 
 }
 
 
+function draw(){
+    warning();
+}
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * sets up a warning text.
 */
-function draw() {
+function warning() {
+    background(0);
+    fill(255);
+    textSize(150);
+    text("Warning!", 540, 400);
 
 }
