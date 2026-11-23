@@ -13,3 +13,6 @@ So i spent the first week brainstorming and planning my idea, and...I didn't jou
 So i started today with drawing some of the assets that i would need. The main goal was to make it look like a drawing made by a child, so i had to intentionally make the drawings and the handwriting look horrible. Idk if i nailed that but it looks fine to me.
 For the coding. I started by setting up a warning screen, yk just as a disclaimer. (it was mainly to make it look professional hehehe) Anyways, the whole thing was just me adding text so nothing interesting to say about it.
 For the next page, it was a little page flipping simulator. The player is expected to click through five different sketchbook pages, who are drawn by Madelyne. The protagonist of out little web experience here. These drawings are supposed to hint at parts of the story, but not all of it because that's the job of the minigames.
+
+## 23 Novermber 2026
+So i started today by drawing more assets, i designed the two characters that are gonna show up in the games. Well it's three characters if you count the cat too but yeah.
