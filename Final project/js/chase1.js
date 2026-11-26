@@ -10,7 +10,15 @@
 
 let madeline;
 let thelady;
-let tvroom;
+let rooms = [
+    {bg: "assets/images/tvrooms"},
+    {bg: "assets/images/kitchen"},
+    {bg: "assets/images/upstairs"},
+    {bg: "assets/images/hallway"},
+    {bg: "assets/images/hallwaydoor"},
+
+]
+//let tvroom;
 
 let madelineX = 200;
 let madelineY = 900;
