@@ -15,4 +15,5 @@ For the coding. I started by setting up a warning screen, yk just as a disclaime
 For the next page, it was a little page flipping simulator. The player is expected to click through five different sketchbook pages, who are drawn by Madelyne. The protagonist of out little web experience here. These drawings are supposed to hint at parts of the story, but not all of it because that's the job of the minigames.
 
 ## 23 Novermber 2026
-So i started today by drawing more assets, i designed the two characters that are gonna show up in the games. Well it's three characters if you count the cat too but yeah.
+So i started today by drawing more assets, i designed the two characters that are gonna show up in the games. Well it's three characters if you count the cat too but yeah. i also drew the house's rooms, i used undertale and gumball as a reference for the layout. why? i got no idea.
+i was able to code madeline's movement to wasd, but i still need to draw her sprites. the idea of the second minigame is quite simple. you need to follow the lady and try to catch her, but every single time you get close. she dissapears.
