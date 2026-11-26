@@ -15,6 +15,8 @@ let tvroom;
 let madelineX = 200;
 let madelineY = 900;
 const speed = 5;
+const vanishDistance = 100;
+let ladyVisible = true;
 
 /**
  * sets up canvas
@@ -38,8 +40,16 @@ function draw(){
     if (keyIsDown("a")) madelineX -= speed;
     if (keyIsDown("d")) madelineX += speed;
 
+    const d = dist(madelineX, madelineY, 150, 200);
+    if (d < vanishDistance) {
+        ladyVisible = false
+    }
+
     image(tvroom, 540, 540, 1080, 1080);
     image(madeline, madelineX, madelineY, 350, 350);
-    image(thelady, 150, 200, 450, 450);
+    
+    if (ladyVisible) {
+        image(thelady, 150, 200, 450, 450);
+    }
 
 }
