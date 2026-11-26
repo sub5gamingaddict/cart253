@@ -17,3 +17,4 @@ For the next page, it was a little page flipping simulator. The player is expect
 ## 23 Novermber 2026
 So i started today by drawing more assets, i designed the two characters that are gonna show up in the games. Well it's three characters if you count the cat too but yeah. i also drew the house's rooms, i used undertale and gumball as a reference for the layout. why? i got no idea.
 i was able to code madeline's movement to wasd, but i still need to draw her sprites. the idea of the second minigame is quite simple. you need to follow the lady and try to catch her, but every single time you get close. she dissapears.
+so i made it so when madelyne gets close to the lady, she dissapears.
